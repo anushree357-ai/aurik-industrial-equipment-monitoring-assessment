@@ -1,0 +1,494 @@
+record_id,provider_name,factory_id,machine_ref,line_id,recorded_at,record_type,inspection_result,maintenance_status,days_since_last_service,technician_note,manual_confidence,reported_by,repair_action,estimated_downtime_min
+MLX-500,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/07 20:06:25,inspection,minor_defect_found,overdue,69,Stop and service required,high,shift_lead,,30
+MLX-501,MaintaLogix,PLANT_01,MCH-011,D,2026/03/01 05:57:13,inspection,pass,overdue,115,Routine inspection completed,high,tech_02,,0
+MLX-502,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/03 13:59:44,inspection,requires_attention,due_soon,47,Technician review recommended,medium,operator_b,,0
+MLX-503,MaintaLogix,PLANT_01,MCH-012,B,2026/03/05 08:40:21,inspection,minor_defect_found,due_soon,60,Wear observed; monitor next shift,medium,shift_lead,,0
+MLX-504,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/07 04:20:28,inspection,pass,overdue,22,Routine inspection completed,high,operator_b,,0
+MLX-505,MaintaLogix,PLANT_01,MCH-007,LINE-C,2026/03/10 15:33:52,inspection,pass,overdue,46,Routine inspection completed,high,operator_a,,30
+MLX-506,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/06 10:16:57,inspection,pass,overdue,43,Routine inspection completed,low,tech_01,,30
+MLX-507,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/10 17:06:26,inspection,minor_defect_found,due_soon,31,Wear observed; monitor next shift,low,tech_01,,15
+MLX-508,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/06 14:29:13,inspection,minor_defect_found,overdue,7,Wear observed; monitor next shift,high,operator_b,,15
+MLX-509,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/05 04:05:53,inspection,pass,not_due,80,Routine inspection completed,medium,operator_b,,30
+MLX-510,MaintaLogix,PLANT_01,MCH-011,LINE-D,2026/03/06 18:28:04,inspection,pass,not_due,28,Routine inspection completed,low,operator_b,,0
+MLX-511,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/06 14:49:22,inspection,pass,overdue,58,Routine inspection completed,medium,operator_b,,0
+MLX-512,MaintaLogix,PLANT_01,MCH-011,LINE-D,2026/03/10 03:05:53,inspection,pass,due_soon,71,Routine inspection completed,low,tech_02,,15
+MLX-513,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/02 20:36:38,inspection,pass,due_soon,25,Routine inspection completed,medium,tech_02,,15
+MLX-514,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/07 16:00:35,inspection,minor_defect_found,not_due,0,Wear observed; monitor next shift,high,tech_01,,0
+MLX-515,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/04 02:21:04,inspection,requires_attention,overdue,21,Technician review recommended,high,operator_b,,0
+MLX-516,MaintaLogix,PLANT_01,MCH-010,C,2026/03/03 01:00:57,inspection,requires_attention,overdue,42,Technician review recommended,high,shift_lead,,0
+MLX-517,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/03 22:30:06,inspection,pass,not_due,16,Manual inspection passed; no heat issue observed,low,shift_lead,,15
+MLX-518,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/09 18:45:51,inspection,pass,due_soon,40,Routine inspection completed,high,shift_lead,,15
+MLX-519,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/02 13:01:40,inspection,pass,overdue,0,Routine inspection completed,medium,tech_01,,0
+MLX-520,MaintaLogix,PLANT_01,MCH-005,A,2026/03/08 05:41:49,inspection,requires_attention,due_soon,0,Technician review recommended,medium,tech_02,,0
+MLX-521,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/06 03:39:01,inspection,pass,not_due,83,Routine inspection completed,low,tech_02,,0
+MLX-522,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/08 09:37:10,inspection,minor_defect_found,overdue,71,Wear observed; monitor next shift,low,operator_b,,15
+MLX-523,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/03 19:04:11,inspection,requires_attention,overdue,79,Wear observed; monitor next shift,medium,operator_a,,15
+MLX-524,MaintaLogix,PLANT_01,MCH-008,,2026/03/07 06:56:55,inspection,requires_attention,not_due,24,Technician review recommended,medium,operator_b,,0
+MLX-525,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/02 00:48:07,inspection,minor_defect_found,overdue,61,Wear observed; monitor next shift,high,tech_01,,30
+MLX-526,MaintaLogix,PLANT_01,MCH-007,LINE-C,2026/03/07 13:16:18,inspection,pass,due_soon,44,Routine inspection completed,high,operator_a,,15
+MLX-527,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/02 12:39:19,inspection,requires_attention,not_due,71,Technician review recommended,low,tech_01,,0
+MLX-528,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/03 06:30:20,inspection,pass,overdue,34,Routine inspection completed,medium,operator_b,,15
+MLX-529,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/05 08:12:27,inspection,minor_defect_found,due_soon,71,Wear observed; monitor next shift,high,operator_b,,0
+MLX-530,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/03 20:16:05,inspection,requires_attention,overdue,21,Technician review recommended,medium,operator_a,,0
+MLX-531,MaintaLogix,PLANT_01,MCH-007,LINE-C,2026/03/10 18:28:09,inspection,pass,due_soon,33,Routine inspection completed,medium,tech_02,,30
+MLX-532,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/04 09:53:43,inspection,pass,overdue,38,Routine inspection completed,medium,shift_lead,,0
+MLX-533,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/01 10:10:32,inspection,pass,due_soon,31,Routine inspection completed,medium,shift_lead,,15
+MLX-534,MaintaLogix,PLANT_01,MCH-012,B,2026/03/07 07:24:21,inspection,pass,due_soon,82,Routine inspection completed,high,shift_lead,,15
+MLX-535,MaintaLogix,PLANT_01,MCH-009,LINE-A,2026/03/05 05:54:38,inspection,pass,due_soon,83,Routine inspection completed,medium,operator_a,,0
+MLX-536,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/04 16:07:38,inspection,pass,due_soon,40,Routine inspection completed,low,shift_lead,,30
+MLX-537,MaintaLogix,PLANT_01,MCH-009,LINE-A,2026/03/04 20:54:17,inspection,pass,overdue,61,Routine inspection completed,high,operator_b,,30
+MLX-538,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/06 20:59:27,inspection,fail,open,46,Routine inspection completed,low,tech_01,,15
+MLX-539,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/08 01:38:28,inspection,requires_attention,not_due,53,Technician review recommended,medium,tech_01,,0
+MLX-540,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/06 11:11:53,inspection,pass,due_soon,66,Routine inspection completed,low,operator_b,,15
+MLX-541,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/04 07:52:16,inspection,minor_defect_found,overdue,24,Wear observed; monitor next shift,high,shift_lead,,0
+MLX-542,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/05 22:46:36,inspection,pass,not_due,28,Routine inspection completed,high,tech_02,,15
+MLX-543,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/04 12:53:02,inspection,pass,overdue,59,Routine inspection completed,medium,shift_lead,,15
+MLX-544,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/04 18:25:51,inspection,pass,due_soon,34,Routine inspection completed,high,operator_b,,0
+MLX-545,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/02 23:05:48,inspection,pass,due_soon,5,Routine inspection completed,high,shift_lead,,0
+MLX-546,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/09 12:25:26,inspection,requires_attention,not_due,43,Technician review recommended,low,tech_02,,30
+MLX-547,MaintaLogix,PLANT_01,MCH-005,A,2026/03/07 13:51:24,inspection,minor_defect_found,not_due,42,Wear observed; monitor next shift,high,tech_02,,0
+MLX-548,MaintaLogix,PLANT_01,MCH-011,LINE-D,2026/03/09 01:21:31,inspection,pass,overdue,72,Routine inspection completed,medium,operator_b,,30
+MLX-549,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/04 11:01:43,inspection,pass,overdue,17,Routine inspection completed,medium,tech_02,,15
+MLX-550,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/01 19:38:43,inspection,fail,overdue,27,Stop and service required,medium,tech_02,,0
+MLX-551,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/06 01:55:19,inspection,pass,due_soon,69,Routine inspection completed,medium,operator_b,,30
+MLX-552,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/05 11:09:28,inspection,pass,not_due,0,Manual inspection passed; no heat issue observed,medium,operator_a,,0
+MLX-553,MaintaLogix,PLANT_01,MCH-009,LINE-A,2026/03/09 19:11:54,inspection,pass,due_soon,45,Routine inspection completed,high,tech_02,,15
+MLX-554,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/10 15:40:12,inspection,minor_defect_found,closed,53,Post-maintenance condition improved,high,tech_02,bearing_lubricated,15
+MLX-555,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/10 20:37:30,inspection,pass,due_soon,0,Routine inspection completed,low,tech_01,,0
+MLX-556,MaintaLogix,PLANT_01,MCH-004,B,2026/03/06 08:39:49,inspection,pass,not_due,43,Routine inspection completed,high,tech_01,,0
+MLX-557,MaintaLogix,PLANT_01,MCH-009,LINE-A,2026/03/05 05:44:25,inspection,pass,overdue,43,Routine inspection completed,medium,shift_lead,,0
+MLX-558,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/10 02:35:21,inspection,minor_defect_found,due_soon,73,Wear observed; monitor next shift,medium,operator_b,,15
+MLX-559,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/08 04:23:43,inspection,requires_attention,overdue,121,Technician review recommended,high,tech_01,,0
+MLX-560,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/09 08:52:15,inspection,requires_attention,overdue,27,Technician review recommended,high,operator_b,,15
+MLX-561,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/01 21:56:05,inspection,pass,overdue,40,Routine inspection completed,high,operator_b,,15
+MLX-562,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/04 13:11:46,inspection,pass,due_soon,41,Routine inspection completed,low,operator_a,,30
+MLX-563,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/09 08:10:37,inspection,pass,overdue,4,Routine inspection completed,medium,operator_a,,30
+MLX-564,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/07 19:56:37,inspection,pass,overdue,46,Routine inspection completed,high,tech_02,,0
+MLX-565,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/04 06:02:54,inspection,pass,due_soon,35,Routine inspection completed,medium,tech_01,,30
+MLX-566,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/05 00:49:04,inspection,pass,not_due,23,Manual inspection passed; no heat issue observed,high,tech_01,,30
+MLX-567,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/09 08:13:47,inspection,pass,not_due,48,Routine inspection completed,low,tech_02,,15
+MLX-568,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/03 23:40:18,inspection,pass,overdue,60,Routine inspection completed,low,shift_lead,,0
+MLX-569,MaintaLogix,PLANT_01,MCH-011,LINE-D,2026/03/08 18:13:44,inspection,minor_defect_found,due_soon,64,Wear observed; monitor next shift,high,tech_01,,30
+MLX-570,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/03 07:35:58,inspection,pass,overdue,42,Routine inspection completed,high,shift_lead,,0
+MLX-571,MaintaLogix,PLANT_01,MCH-009,LINE-A,2026/03/04 23:22:13,inspection,fail,overdue,49,Stop and service required,high,operator_a,,15
+MLX-572,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/08 02:00:51,inspection,minor_defect_found,overdue,39,Wear observed; monitor next shift,high,operator_b,,15
+MLX-573,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/10 04:32:33,inspection,requires_attention,not_due,19,Technician review recommended,high,tech_02,,30
+MLX-574,MaintaLogix,PLANT_01,MCH-012,B,2026/03/02 02:30:37,inspection,pass,overdue,41,Routine inspection completed,high,tech_01,,0
+MLX-575,MaintaLogix,PLANT_01,MCH-009,LINE-A,2026/03/10 20:30:24,inspection,pass,not_due,38,Routine inspection completed,high,shift_lead,,0
+MLX-576,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/10 13:41:15,inspection,fail,overdue,37,Stop and service required,medium,tech_02,,0
+MLX-577,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/01 23:47:18,inspection,minor_defect_found,not_due,8,Wear observed; monitor next shift,high,tech_02,,0
+MLX-578,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/01 17:08:20,inspection,pass,not_due,54,Routine inspection completed,low,tech_01,,0
+MLX-579,MaintaLogix,PLANT_01,MCH-007,LINE-C,2026/03/09 10:10:26,inspection,pass,overdue,20,Routine inspection completed,medium,tech_02,,15
+MLX-580,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/04 11:24:20,inspection,fail,overdue,34,Stop and service required,high,shift_lead,,15
+MLX-581,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/02 17:41:03,inspection,pass,overdue,53,Routine inspection completed,low,operator_b,,0
+MLX-582,MaintaLogix,PLANT_01,MCH-012,B,2026/03/08 21:43:47,inspection,pass,overdue,68,Routine inspection completed,high,tech_02,,30
+MLX-583,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/03 20:16:08,inspection,requires_attention,not_due,15,Technician review recommended,low,operator_b,,30
+MLX-584,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/08 06:13:25,inspection,pass,due_soon,52,Routine inspection completed,low,tech_01,,30
+MLX-585,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/07 11:17:14,inspection,pass,overdue,22,Routine inspection completed,medium,tech_01,,15
+MLX-586,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/02 19:07:09,inspection,fail,due_soon,53,Routine inspection completed,low,tech_02,,30
+MLX-587,MaintaLogix,PLANT_01,MCH-007,LINE-C,2026/03/02 00:07:18,inspection,pass,overdue,27,Routine inspection completed,low,tech_02,,0
+MLX-588,MaintaLogix,PLANT_01,MCH-011,LINE-D,2026/03/06 20:54:25,inspection,pass,due_soon,70,Routine inspection completed,medium,operator_a,,0
+MLX-589,MaintaLogix,PLANT_01,MCH-010,C,2026/03/06 10:16:16,inspection,pass,due_soon,52,Routine inspection completed,low,shift_lead,,15
+MLX-590,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/07 15:35:32,inspection,pass,due_soon,74,Routine inspection completed,medium,tech_02,,15
+MLX-591,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/06 14:23:33,inspection,pass,overdue,32,Routine inspection completed,high,shift_lead,,30
+MLX-592,MaintaLogix,PLANT_01,MCH-009,LINE-A,2026/03/01 20:13:13,inspection,pass,not_due,22,Routine inspection completed,low,tech_02,,30
+MLX-593,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/01 02:29:59,inspection,pass,overdue,0,Routine inspection completed,high,shift_lead,,15
+MLX-594,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/06 18:58:01,inspection,pass,not_due,39,Routine inspection completed,high,tech_02,,15
+MLX-595,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/07 11:31:18,inspection,pass,overdue,52,Routine inspection completed,high,tech_02,,0
+MLX-596,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/02 10:59:35,inspection,pass,due_soon,67,Routine inspection completed,medium,tech_02,,0
+MLX-597,MaintaLogix,PLANT_01,MCH-007,LINE-C,2026/03/05 11:32:31,inspection,pass,overdue,30,Routine inspection completed,high,operator_b,,15
+MLX-598,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/04 18:35:24,inspection,minor_defect_found,not_due,28,Wear observed; monitor next shift,medium,shift_lead,,0
+MLX-599,MaintaLogix,PLANT_01,MCH-011,LINE-D,2026/03/09 03:45:34,inspection,requires_attention,not_due,93,Technician review recommended,high,shift_lead,,0
+MLX-600,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/07 02:08:46,inspection,pass,due_soon,71,Routine inspection completed,high,shift_lead,,30
+MLX-601,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/04 01:24:46,inspection,requires_attention,overdue,67,Routine inspection completed,high,operator_a,,30
+MLX-602,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/02 19:19:59,inspection,pass,overdue,19,Routine inspection completed,high,shift_lead,,30
+MLX-603,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/02 18:43:27,inspection,pass,not_due,79,Routine inspection completed,high,tech_02,,0
+MLX-604,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/05 14:56:22,inspection,pass,not_due,39,Manual inspection passed; no heat issue observed,high,operator_b,,15
+MLX-605,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/09 05:19:00,inspection,requires_attention,not_due,2,Technician review recommended,medium,tech_02,,0
+MLX-606,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/01 23:26:48,inspection,minor_defect_found,overdue,41,Wear observed; monitor next shift,high,tech_02,,30
+MLX-607,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/08 12:59:38,inspection,pass,due_soon,38,Routine inspection completed,high,operator_b,,30
+MLX-608,MaintaLogix,PLANT_01,,LINE-C,2026/03/01 13:27:05,inspection,requires_attention,overdue,30,Technician review recommended,high,tech_02,,0
+MLX-609,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/03 18:05:23,inspection,minor_defect_found,overdue,55,Wear observed; monitor next shift,high,operator_a,,30
+MLX-610,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/05 17:49:56,inspection,pass,not_due,40,Manual inspection passed; no heat issue observed,medium,tech_02,,0
+MLX-611,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/01 13:07:40,inspection,pass,not_due,20,Routine inspection completed,high,tech_01,,30
+MLX-612,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/08 20:39:09,inspection,minor_defect_found,due_soon,0,Wear observed; monitor next shift,low,operator_a,,30
+MLX-613,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/09 05:19:56,inspection,requires_attention,overdue,81,Technician review recommended,medium,operator_a,,0
+MLX-614,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/07 05:55:08,inspection,pass,not_due,54,Routine inspection completed,high,operator_a,,30
+MLX-615,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/05 11:58:00,inspection,pass,not_due,50,Manual inspection passed; no heat issue observed,high,shift_lead,,0
+MLX-616,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/07 21:47:32,inspection,pass,due_soon,64,Routine inspection completed,high,shift_lead,,15
+MLX-617,MaintaLogix,PLANT_01,MCH-009,LINE-A,2026/03/04 20:35:13,inspection,minor_defect_found,due_soon,56,Wear observed; monitor next shift,medium,shift_lead,,15
+MLX-618,MaintaLogix,PLANT_01,MCH-009,LINE-A,2026/03/04 19:50:42,inspection,minor_defect_found,due_soon,30,Wear observed; monitor next shift,low,operator_a,,30
+MLX-619,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/09 06:03:39,inspection,pass,overdue,54,Routine inspection completed,medium,shift_lead,,0
+MLX-620,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/06 14:31:06,maintenance,requires_attention,closed,14,Preventive maintenance logged,medium,operator_b,power_panel_checked,10
+MLX-621,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/08 21:29:15,maintenance,requires_attention,closed,34,Preventive maintenance logged,low,tech_01,bearing_lubricated,20
+MLX-622,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/04 18:56:41,maintenance,requires_attention,open,61,Issue observed by shift technician,high,operator_b,cooling_fan_cleaned,90
+MLX-623,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/04 19:57:25,maintenance,requires_attention,open,68,Issue observed by shift technician,medium,shift_lead,bearing_lubricated,120
+MLX-624,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/08 09:08:23,maintenance,requires_attention,open,48,Issue observed by shift technician,high,operator_a,,10
+MLX-625,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/07 19:14:19,maintenance,requires_attention,in_progress,31,Work order updated,high,operator_a,power_panel_checked,120
+MLX-626,MaintaLogix,PLANT_01,MCH-007,LINE-C,2026/03/02 08:06:49,maintenance,not_inspected,in_progress,32,Preventive maintenance logged,medium,tech_01,cooling_fan_cleaned,120
+MLX-627,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/10 04:19:37,maintenance,requires_attention,closed,0,Issue observed by shift technician,medium,operator_a,belt_adjustment,120
+MLX-628,MaintaLogix,PLANT_01,MCH-002,A,2026/03/04 23:22:45,maintenance,requires_attention,closed,41,Preventive maintenance logged,medium,tech_01,belt_adjustment,45
+MLX-629,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/06 05:38:22,maintenance,pass,closed,16,Work order updated,high,operator_a,,0
+MLX-630,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/06 13:29:34,maintenance,requires_attention,closed,15,Issue observed by shift technician,high,tech_02,cooling_fan_cleaned,20
+MLX-631,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/09 18:26:50,maintenance,pass,in_progress,0,Preventive maintenance logged,high,shift_lead,sensor_replaced,20
+MLX-632,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/01 12:25:31,maintenance,not_inspected,closed,33,Preventive maintenance logged,medium,shift_lead,cooling_fan_cleaned,20
+MLX-633,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/04 02:18:12,maintenance,not_inspected,closed,0,Preventive maintenance logged,medium,tech_02,bearing_lubricated,45
+MLX-634,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/09 02:29:49,maintenance,pass,closed,42,Work order updated,low,tech_01,sensor_replaced,120
+MLX-635,MaintaLogix,PLANT_01,MCH-011,LINE-D,2026/03/08 15:55:46,maintenance,not_inspected,closed,123,Post-maintenance observation pending,high,tech_02,,20
+MLX-636,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/04 21:34:11,maintenance,pass,in_progress,101,Post-maintenance observation pending,high,operator_b,,90
+MLX-637,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/07 15:16:06,maintenance,not_inspected,closed,9,Preventive maintenance logged,medium,operator_a,,10
+MLX-638,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/10 03:50:24,maintenance,not_inspected,overdue,13,Post-maintenance observation pending,high,operator_b,power_panel_checked,120
+MLX-639,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/09 15:11:20,maintenance,requires_attention,overdue,61,Issue observed by shift technician,high,operator_a,,45
+MLX-640,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/01 20:51:07,maintenance,pass,open,46,Issue observed by shift technician,medium,tech_01,,0
+MLX-641,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/10 09:25:41,maintenance,pass,closed,67,Preventive maintenance logged,high,operator_a,,45
+MLX-642,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/01 21:55:16,maintenance,requires_attention,closed,46,Work order updated,low,tech_01,cooling_fan_cleaned,0
+MLX-643,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/02 22:08:34,maintenance,not_inspected,overdue,48,Preventive maintenance logged,medium,tech_01,belt_adjustment,0
+MLX-644,MaintaLogix,PLANT_01,MCH-008,B,2026/03/01 02:53:26,maintenance,pass,open,68,Work order updated,low,operator_b,sensor_replaced,90
+MLX-645,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/02 01:36:31,maintenance,not_inspected,due_soon,51,Post-maintenance observation pending,medium,tech_02,power_panel_checked,90
+MLX-646,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/04 09:12:41,maintenance,requires_attention,closed,39,Post-maintenance observation pending,medium,shift_lead,bearing_lubricated,45
+MLX-647,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/05 09:39:50,maintenance,requires_attention,closed,41,Work order updated,medium,operator_a,power_panel_checked,90
+MLX-648,MaintaLogix,PLANT_01,MCH-009,LINE-A,2026/03/02 07:15:45,maintenance,pass,closed,84,Work order updated,high,tech_02,belt_adjustment,90
+MLX-649,MaintaLogix,PLANT_01,MCH-006,C,2026/03/06 06:51:00,maintenance,requires_attention,in_progress,40,Issue observed by shift technician,medium,operator_a,belt_adjustment,10
+MLX-650,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/05 13:38:50,maintenance,not_inspected,open,68,Post-maintenance observation pending,high,shift_lead,belt_adjustment,90
+MLX-651,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/10 20:09:53,maintenance,pass,open,0,Preventive maintenance logged,low,tech_01,bearing_lubricated,90
+MLX-652,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/06 02:30:15,maintenance,requires_attention,closed,64,Issue observed by shift technician,low,tech_02,sensor_replaced,20
+MLX-653,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/04 11:04:03,maintenance,not_inspected,due_soon,68,Preventive maintenance logged,high,shift_lead,power_panel_checked,10
+MLX-654,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/03 12:13:21,maintenance,pass,closed,43,Post-maintenance observation pending,low,shift_lead,sensor_replaced,0
+MLX-655,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/02 11:22:16,maintenance,pass,in_progress,23,Work order updated,high,shift_lead,bearing_lubricated,45
+MLX-656,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/03 17:16:28,maintenance,requires_attention,closed,9,Post-maintenance observation pending,medium,operator_a,belt_adjustment,45
+MLX-657,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/08 11:08:53,maintenance,pass,overdue,58,Post-maintenance observation pending,medium,tech_02,,120
+MLX-658,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/03 13:39:11,maintenance,requires_attention,closed,72,Post-maintenance observation pending,low,tech_01,sensor_replaced,20
+MLX-659,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/04 04:42:57,maintenance,pass,closed,18,Issue observed by shift technician,low,shift_lead,power_panel_checked,120
+MLX-660,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/04 22:03:24,maintenance,not_inspected,closed,49,Preventive maintenance logged,high,operator_a,bearing_lubricated,45
+MLX-661,MaintaLogix,PLANT_01,MCH-009,LINE-A,2026/03/05 16:55:53,maintenance,not_inspected,open,56,Post-maintenance observation pending,high,operator_a,belt_adjustment,90
+MLX-662,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/06 05:58:09,maintenance,pass,closed,0,Preventive maintenance logged,low,tech_02,sensor_replaced,10
+MLX-663,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/07 22:15:32,maintenance,pass,not_due,41,Post-maintenance condition improved,medium,tech_01,bearing_lubricated,120
+MLX-664,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/02 12:06:59,maintenance,requires_attention,closed,26,Work order updated,medium,shift_lead,sensor_replaced,90
+MLX-665,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/10 09:23:26,maintenance,minor_defect_found,closed,2,Post-maintenance condition improved,medium,operator_a,cooling_fan_cleaned,90
+MLX-666,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/07 07:15:38,maintenance,requires_attention,open,0,Work order updated,medium,tech_01,,45
+MLX-667,MaintaLogix,PLANT_01,MCH-009,A,2026/03/03 10:53:39,maintenance,pass,overdue,37,Issue observed by shift technician,low,operator_b,bearing_lubricated,45
+MLX-668,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/03 22:36:45,maintenance,not_inspected,closed,18,Post-maintenance observation pending,medium,shift_lead,belt_adjustment,90
+MLX-669,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/02 13:17:32,maintenance,requires_attention,open,56,Work order updated,high,shift_lead,,0
+MLX-670,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/07 01:11:30,maintenance,requires_attention,open,57,Work order updated,high,tech_02,belt_adjustment,20
+MLX-671,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/05 16:00:48,maintenance,requires_attention,overdue,88,Issue observed by shift technician,high,shift_lead,bearing_lubricated,0
+MLX-672,MaintaLogix,PLANT_01,MCH-007,LINE-C,2026/03/06 01:57:34,maintenance,requires_attention,open,27,Work order updated,medium,tech_01,cooling_fan_cleaned,10
+MLX-673,MaintaLogix,PLANT_01,MCH-011,LINE-D,2026/03/02 01:24:39,maintenance,pass,overdue,23,Post-maintenance observation pending,medium,shift_lead,power_panel_checked,45
+MLX-674,MaintaLogix,PLANT_01,MCH-009,LINE-A,2026/03/07 10:31:33,maintenance,requires_attention,open,62,Post-maintenance observation pending,high,operator_b,power_panel_checked,10
+MLX-675,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/10 07:12:07,maintenance,requires_attention,due_soon,45,Post-maintenance observation pending,high,tech_01,power_panel_checked,20
+MLX-676,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/01 05:17:20,maintenance,not_inspected,closed,15,Post-maintenance observation pending,low,tech_01,cooling_fan_cleaned,20
+MLX-677,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/06 13:33:23,maintenance,requires_attention,due_soon,84,Work order updated,high,operator_b,bearing_lubricated,45
+MLX-678,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/10 22:46:29,maintenance,requires_attention,closed,34,Work order updated,low,tech_02,belt_adjustment,20
+MLX-679,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/05 12:44:03,maintenance,requires_attention,closed,74,Issue observed by shift technician,low,shift_lead,bearing_lubricated,120
+MLX-680,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/06 18:37:31,maintenance,not_inspected,overdue,43,Preventive maintenance logged,high,operator_b,,45
+MLX-681,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/02 17:55:14,maintenance,not_inspected,in_progress,65,Issue observed by shift technician,high,operator_b,belt_adjustment,120
+MLX-682,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/05 03:39:02,maintenance,pass,open,78,Post-maintenance observation pending,low,shift_lead,sensor_replaced,90
+MLX-683,MaintaLogix,PLANT_01,,LINE-A,2026/03/02 08:32:54,maintenance,pass,open,54,Issue observed by shift technician,high,shift_lead,,10
+MLX-684,MaintaLogix,PLANT_01,MCH-007,LINE-C,2026/03/03 05:59:48,maintenance,requires_attention,closed,51,Preventive maintenance logged,high,tech_01,power_panel_checked,90
+MLX-685,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/10 14:00:13,maintenance,pass,closed,14,Issue observed by shift technician,high,operator_b,belt_adjustment,90
+MLX-686,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/10 18:37:07,maintenance,requires_attention,overdue,37,Post-maintenance observation pending,high,tech_02,bearing_lubricated,10
+MLX-687,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/03 00:33:19,maintenance,pass,closed,10,Post-maintenance observation pending,medium,operator_a,sensor_replaced,10
+MLX-688,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/08 05:29:19,maintenance,not_inspected,closed,55,Issue observed by shift technician,medium,tech_01,bearing_lubricated,90
+MLX-689,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/05 14:53:48,maintenance,pass,closed,33,Work order updated,medium,operator_a,cooling_fan_cleaned,10
+MLX-690,MaintaLogix,PLANT_01,MCH-011,LINE-D,2026/03/08 08:44:01,maintenance,pass,in_progress,105,Post-maintenance observation pending,low,shift_lead,bearing_lubricated,90
+MLX-691,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/08 22:52:22,maintenance,requires_attention,open,0,Preventive maintenance logged,medium,tech_02,sensor_replaced,20
+MLX-692,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/07 18:10:09,maintenance,not_inspected,open,41,Preventive maintenance logged,low,tech_01,power_panel_checked,0
+MLX-693,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/02 16:29:29,maintenance,not_inspected,overdue,70,Work order updated,high,operator_b,,45
+MLX-694,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/09 23:09:00,maintenance,minor_defect_found,closed,55,Post-maintenance condition improved,high,tech_02,,10
+MLX-695,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/07 03:06:40,maintenance,not_inspected,closed,6,Issue observed by shift technician,low,operator_a,,90
+MLX-696,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/07 18:30:01,maintenance,not_inspected,open,34,Issue observed by shift technician,high,shift_lead,cooling_fan_cleaned,45
+MLX-697,MaintaLogix,PLANT_01,MCH-001,A,2026/03/01 10:21:45,maintenance,pass,open,9,Post-maintenance observation pending,medium,operator_b,bearing_lubricated,45
+MLX-698,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/03 20:06:53,maintenance,pass,closed,53,Issue observed by shift technician,high,operator_b,bearing_lubricated,120
+MLX-699,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/09 05:43:45,maintenance,pass,not_due,12,Post-maintenance condition improved,medium,shift_lead,,20
+MLX-700,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/04 15:14:54,maintenance,not_inspected,closed,10,Preventive maintenance logged,medium,shift_lead,,120
+MLX-701,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/03 12:26:15,maintenance,not_inspected,overdue,43,Issue observed by shift technician,low,tech_02,cooling_fan_cleaned,20
+MLX-702,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/05 19:32:19,maintenance,not_inspected,closed,75,Issue observed by shift technician,medium,tech_02,cooling_fan_cleaned,45
+MLX-703,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/03 14:50:22,maintenance,not_inspected,in_progress,22,Post-maintenance observation pending,low,operator_b,belt_adjustment,0
+MLX-704,MaintaLogix,PLANT_01,MCH-008,B,2026/03/05 03:50:22,maintenance,requires_attention,closed,31,Work order updated,high,operator_a,sensor_replaced,90
+MLX-705,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/01 19:26:05,maintenance,pass,closed,43,Issue observed by shift technician,low,operator_b,bearing_lubricated,0
+MLX-706,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/01 20:34:37,maintenance,not_inspected,closed,0,Issue observed by shift technician,low,shift_lead,,0
+MLX-707,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/06 08:27:07,maintenance,requires_attention,closed,42,Issue observed by shift technician,medium,shift_lead,bearing_lubricated,45
+MLX-708,MaintaLogix,PLANT_01,MCH-007,C,2026/03/02 11:53:17,maintenance,requires_attention,open,3,Work order updated,high,operator_b,sensor_replaced,120
+MLX-709,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/02 11:53:00,maintenance,not_inspected,overdue,65,Issue observed by shift technician,high,operator_b,belt_adjustment,0
+MLX-710,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/06 05:46:56,maintenance,not_inspected,in_progress,28,Preventive maintenance logged,low,tech_01,,120
+MLX-711,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/04 05:41:48,maintenance,requires_attention,closed,23,Preventive maintenance logged,high,tech_01,belt_adjustment,90
+MLX-712,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/03 08:33:02,maintenance,requires_attention,closed,47,Work order updated,high,operator_a,sensor_replaced,45
+MLX-713,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/10 07:10:43,maintenance,requires_attention,overdue,14,Work order updated,medium,shift_lead,power_panel_checked,20
+MLX-714,MaintaLogix,PLANT_01,MCH-006,,2026/03/02 19:46:24,maintenance,requires_attention,open,54,Work order updated,high,tech_01,belt_adjustment,45
+MLX-715,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/10 20:08:18,maintenance,requires_attention,open,6,Post-maintenance observation pending,low,shift_lead,cooling_fan_cleaned,10
+MLX-716,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/09 17:53:25,maintenance,pass,open,58,Issue observed by shift technician,medium,operator_a,power_panel_checked,0
+MLX-717,MaintaLogix,PLANT_01,MCH-006,C,2026/03/05 22:43:24,maintenance,pass,closed,9,Post-maintenance observation pending,low,tech_01,sensor_replaced,20
+MLX-718,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/05 00:45:27,maintenance,not_inspected,in_progress,24,Issue observed by shift technician,medium,tech_02,power_panel_checked,45
+MLX-719,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/02 16:01:01,maintenance,pass,open,40,Issue observed by shift technician,medium,operator_b,bearing_lubricated,45
+MLX-720,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/03 18:04:01,maintenance,pass,open,11,Post-maintenance observation pending,high,shift_lead,sensor_replaced,120
+MLX-721,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/02 17:58:00,maintenance,not_inspected,open,16,Work order updated,high,tech_01,,10
+MLX-722,MaintaLogix,PLANT_01,MCH-007,LINE-C,2026/03/04 21:24:18,maintenance,pass,overdue,0,Work order updated,medium,tech_02,power_panel_checked,120
+MLX-723,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/06 10:36:08,maintenance,requires_attention,in_progress,6,Preventive maintenance logged,high,tech_02,sensor_replaced,0
+MLX-724,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/01 16:13:01,maintenance,not_inspected,closed,25,Preventive maintenance logged,high,tech_01,bearing_lubricated,20
+MLX-725,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/07 11:08:36,maintenance,pass,in_progress,34,Post-maintenance observation pending,high,tech_01,bearing_lubricated,45
+MLX-726,MaintaLogix,PLANT_01,MCH-006,C,2026/03/10 02:01:24,maintenance,pass,closed,19,Post-maintenance condition improved,low,operator_a,cooling_fan_cleaned,20
+MLX-727,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/06 07:49:28,maintenance,not_inspected,open,43,Issue observed by shift technician,high,tech_02,belt_adjustment,90
+MLX-728,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/06 18:24:56,maintenance,not_inspected,overdue,58,Post-maintenance observation pending,high,operator_b,sensor_replaced,45
+MLX-729,MaintaLogix,PLANT_01,MCH-007,LINE-C,2026/03/01 09:11:37,maintenance,pass,in_progress,42,Post-maintenance observation pending,high,operator_a,cooling_fan_cleaned,0
+MLX-730,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/02 18:24:00,maintenance,not_inspected,open,10,Preventive maintenance logged,medium,operator_b,bearing_lubricated,20
+MLX-731,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/05 04:12:02,maintenance,not_inspected,overdue,15,Work order updated,low,operator_a,belt_adjustment,120
+MLX-732,MaintaLogix,PLANT_01,MCH-009,LINE-A,2026/03/07 21:00:48,maintenance,not_inspected,closed,61,Work order updated,high,tech_01,sensor_replaced,45
+MLX-733,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/10 06:26:37,maintenance,pass,open,55,Post-maintenance observation pending,medium,operator_b,bearing_lubricated,120
+MLX-734,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/08 14:42:49,maintenance,pass,closed,31,Post-maintenance condition improved,low,operator_a,cooling_fan_cleaned,20
+MLX-735,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/04 21:20:58,maintenance,not_inspected,closed,28,Preventive maintenance logged,low,operator_a,cooling_fan_cleaned,20
+MLX-736,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/01 10:31:32,maintenance,requires_attention,in_progress,63,Issue observed by shift technician,medium,shift_lead,power_panel_checked,0
+MLX-737,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/01 05:56:12,maintenance,not_inspected,overdue,93,Post-maintenance observation pending,high,operator_a,bearing_lubricated,20
+MLX-738,MaintaLogix,PLANT_01,MCH-009,LINE-A,2026/03/06 04:14:46,maintenance,requires_attention,open,46,Post-maintenance observation pending,high,tech_02,cooling_fan_cleaned,20
+MLX-739,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/02 05:05:45,maintenance,not_inspected,in_progress,64,Issue observed by shift technician,low,tech_01,power_panel_checked,0
+MLX-740,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/01 04:37:14,calibration,pass,closed,40,Calibration cycle completed,low,tech_01,calibration_failed,0
+MLX-741,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/07 01:46:38,calibration,pass,closed,0,Sensor baseline reset,high,tech_01,calibration_failed,0
+MLX-742,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/06 00:22:18,calibration,failed,closed,37,Calibration variance noted,high,shift_lead,,15
+MLX-743,MaintaLogix,PLANT_01,MCH-003,B,2026/03/01 18:56:29,calibration,pass,due_soon,22,Sensor baseline reset,medium,tech_01,threshold_verified,0
+MLX-744,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/06 01:22:31,calibration,failed,not_due,0,Sensor baseline reset,low,operator_b,,15
+MLX-745,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/09 00:05:48,calibration,pass,overdue,62,Sensor baseline reset,high,operator_a,sensor_calibrated,0
+MLX-746,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/05 19:28:28,calibration,pass,not_due,31,Calibration variance noted,medium,tech_02,threshold_verified,15
+MLX-747,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/02 05:44:30,calibration,recalibrated,not_due,0,Calibration variance noted,low,operator_a,threshold_verified,5
+MLX-748,MaintaLogix,PLANT_01,MCH-007,LINE-C,2026/03/10 01:37:37,calibration,recalibrated,closed,29,Sensor baseline reset,medium,tech_02,,5
+MLX-749,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/06 04:05:13,calibration,failed,due_soon,90,Calibration variance noted,high,operator_a,,5
+MLX-750,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/05 06:42:54,calibration,pass,due_soon,67,Calibration variance noted,low,tech_02,threshold_verified,5
+MLX-751,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/03 06:49:50,calibration,pass,closed,14,Sensor baseline reset,low,operator_b,,0
+MLX-752,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/10 09:12:20,calibration,pass,not_due,34,Calibration variance noted,medium,operator_a,sensor_calibrated,0
+MLX-753,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/05 11:21:19,calibration,pass,due_soon,27,Calibration cycle completed,medium,tech_01,,0
+MLX-754,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/03 15:01:38,calibration,recalibrated,closed,38,Sensor baseline reset,high,operator_a,threshold_verified,0
+MLX-755,MaintaLogix,PLANT_01,MCH-002,A,2026/03/10 11:40:54,calibration,recalibrated,closed,0,Calibration variance noted,low,tech_01,sensor_calibrated,5
+MLX-756,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/04 17:12:27,calibration,pass,not_due,36,Calibration cycle completed,low,tech_02,,15
+MLX-757,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/08 15:39:47,calibration,recalibrated,not_due,0,Calibration variance noted,low,shift_lead,threshold_verified,15
+MLX-758,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/06 10:32:08,calibration,pass,not_due,35,Calibration cycle completed,medium,operator_b,sensor_calibrated,15
+MLX-759,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/05 03:04:20,calibration,recalibrated,not_due,26,Calibration cycle completed,medium,tech_01,threshold_verified,0
+MLX-760,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/09 12:58:05,calibration,pass,closed,0,Calibration cycle completed,medium,tech_02,calibration_failed,30
+MLX-761,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/09 16:46:07,calibration,recalibrated,closed,38,Sensor baseline reset,medium,operator_b,threshold_verified,5
+MLX-762,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/01 04:04:53,calibration,pass,not_due,0,Calibration variance noted,medium,operator_b,sensor_calibrated,5
+MLX-763,MaintaLogix,PLANT_01,MCH-011,LINE-D,2026/03/02 23:44:24,calibration,recalibrated,not_due,25,Calibration variance noted,medium,tech_02,,15
+MLX-764,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/07 23:54:26,calibration,recalibrated,closed,48,Calibration variance noted,high,operator_b,calibration_failed,15
+MLX-765,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/10 22:08:56,calibration,pass,closed,8,Calibration cycle completed,low,operator_a,threshold_verified,0
+MLX-766,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/06 10:46:05,calibration,recalibrated,closed,29,Calibration variance noted,medium,shift_lead,calibration_failed,0
+MLX-767,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/05 01:18:36,calibration,pass,not_due,0,Calibration variance noted,low,operator_b,sensor_calibrated,15
+MLX-768,MaintaLogix,PLANT_01,MCH-002,A,2026/03/09 05:49:25,calibration,pass,not_due,16,Calibration cycle completed,high,shift_lead,threshold_verified,5
+MLX-769,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/06 13:43:29,calibration,recalibrated,due_soon,39,Calibration variance noted,high,operator_a,,5
+MLX-770,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/01 18:25:36,calibration,failed,open,58,Calibration variance noted,medium,shift_lead,calibration_failed,30
+MLX-771,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/05 00:58:25,calibration,failed,closed,28,Calibration cycle completed,medium,tech_02,,0
+MLX-772,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/10 01:29:00,calibration,pass,overdue,85,Calibration cycle completed,medium,tech_02,,0
+MLX-773,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/10 12:58:55,calibration,pass,not_due,48,Sensor baseline reset,medium,operator_a,sensor_calibrated,5
+MLX-774,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/04 07:21:34,calibration,pass,not_due,43,Sensor baseline reset,low,operator_b,sensor_calibrated,5
+MLX-775,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/02 19:44:31,calibration,recalibrated,overdue,84,Calibration variance noted,low,tech_01,threshold_verified,30
+MLX-776,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/01 22:03:02,calibration,pass,due_soon,69,Calibration variance noted,medium,operator_b,calibration_failed,15
+MLX-777,MaintaLogix,PLANT_01,MCH-001,A,2026/03/06 03:22:08,calibration,pass,closed,13,Calibration cycle completed,medium,operator_a,sensor_calibrated,5
+MLX-778,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/06 04:45:21,calibration,recalibrated,due_soon,38,Sensor baseline reset,low,operator_b,sensor_calibrated,5
+MLX-779,MaintaLogix,PLANT_01,,C,2026/03/09 22:14:27,calibration,recalibrated,due_soon,27,Calibration variance noted,high,operator_a,,15
+MLX-780,MaintaLogix,PLANT_01,MCH-011,LINE-D,2026/03/01 17:33:01,calibration,pass,closed,102,Sensor baseline reset,low,tech_01,,30
+MLX-781,MaintaLogix,PLANT_01,,LINE-B,2026/03/08 11:06:06,calibration,pass,closed,48,Calibration variance noted,medium,operator_a,threshold_verified,30
+MLX-782,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/05 01:56:00,calibration,pass,not_due,49,Calibration variance noted,high,operator_a,,30
+MLX-783,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/03 18:46:44,calibration,pass,due_soon,42,Sensor baseline reset,high,tech_01,sensor_calibrated,5
+MLX-784,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/10 16:20:45,calibration,pass,closed,66,Sensor baseline reset,medium,operator_a,threshold_verified,5
+MLX-785,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/08 19:16:27,calibration,recalibrated,closed,44,Calibration variance noted,high,shift_lead,,5
+MLX-786,MaintaLogix,PLANT_01,MCH-006,C,2026/03/03 16:58:01,calibration,pass,closed,42,Calibration variance noted,medium,tech_02,sensor_calibrated,30
+MLX-787,MaintaLogix,PLANT_01,MCH-007,LINE-C,2026/03/03 12:07:23,calibration,failed,closed,52,Calibration variance noted,high,shift_lead,calibration_failed,15
+MLX-788,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/04 15:42:28,calibration,pass,due_soon,61,Calibration cycle completed,high,operator_b,sensor_calibrated,5
+MLX-789,MaintaLogix,PLANT_01,MCH-005,A,2026/03/02 14:59:28,calibration,recalibrated,closed,0,Calibration cycle completed,high,shift_lead,sensor_calibrated,30
+MLX-790,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/01 10:38:51,calibration,recalibrated,closed,26,Calibration cycle completed,low,shift_lead,threshold_verified,0
+MLX-791,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/06 05:12:27,calibration,recalibrated,due_soon,62,Calibration variance noted,medium,shift_lead,threshold_verified,5
+MLX-792,MaintaLogix,PLANT_01,MCH-007,LINE-C,2026/03/08 06:30:30,calibration,recalibrated,due_soon,5,Sensor baseline reset,medium,tech_02,threshold_verified,0
+MLX-793,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/06 12:38:47,calibration,pass,due_soon,0,Calibration cycle completed,high,shift_lead,calibration_failed,15
+MLX-794,MaintaLogix,PLANT_01,,LINE-B,2026/03/08 10:01:06,calibration,pass,closed,36,Calibration variance noted,low,operator_b,threshold_verified,30
+MLX-795,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/07 16:23:18,calibration,recalibrated,due_soon,33,Sensor baseline reset,high,operator_a,calibration_failed,15
+MLX-796,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/01 11:48:28,calibration,pass,overdue,64,Calibration cycle completed,low,operator_b,,30
+MLX-797,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/10 02:32:46,calibration,pass,closed,0,Calibration variance noted,low,operator_b,threshold_verified,15
+MLX-798,MaintaLogix,PLANT_01,MCH-009,LINE-A,2026/03/09 00:15:50,calibration,recalibrated,closed,16,Calibration variance noted,high,tech_01,calibration_failed,15
+MLX-799,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/06 23:42:19,calibration,failed,not_due,58,Calibration variance noted,medium,tech_01,calibration_failed,0
+MLX-800,MaintaLogix,PLANT_01,MCH-009,LINE-A,2026/03/10 13:25:29,calibration,pass,closed,46,Calibration variance noted,medium,shift_lead,sensor_calibrated,5
+MLX-801,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/03 04:05:12,calibration,recalibrated,overdue,71,Sensor baseline reset,high,operator_a,calibration_failed,0
+MLX-802,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/01 11:48:46,calibration,pass,open,87,Calibration variance noted,medium,tech_02,threshold_verified,30
+MLX-803,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/08 20:24:03,calibration,pass,not_due,46,Sensor baseline reset,high,tech_01,threshold_verified,30
+MLX-804,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/09 01:58:22,calibration,pass,closed,44,Calibration cycle completed,high,operator_a,,5
+MLX-805,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/10 00:31:23,calibration,recalibrated,closed,76,Calibration cycle completed,high,tech_01,,5
+MLX-806,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/02 16:16:30,calibration,recalibrated,not_due,53,Sensor baseline reset,high,tech_02,,0
+MLX-807,MaintaLogix,PLANT_01,MCH-007,,2026/03/08 04:39:01,calibration,pass,closed,43,Sensor baseline reset,high,operator_a,calibration_failed,15
+MLX-808,MaintaLogix,PLANT_01,MCH-009,LINE-A,2026/03/04 20:52:37,calibration,pass,not_due,26,Calibration cycle completed,high,tech_02,,15
+MLX-809,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/02 13:22:31,calibration,pass,open,56,Sensor baseline reset,medium,tech_02,sensor_calibrated,30
+MLX-810,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/05 19:48:56,calibration,failed,not_due,87,Calibration variance noted,low,operator_b,threshold_verified,5
+MLX-811,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/01 10:08:27,calibration,recalibrated,closed,36,Calibration variance noted,high,tech_02,sensor_calibrated,0
+MLX-812,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/07 23:00:02,calibration,pass,due_soon,12,Calibration cycle completed,medium,shift_lead,,0
+MLX-813,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/10 17:31:53,calibration,pass,due_soon,37,Calibration variance noted,medium,tech_01,threshold_verified,30
+MLX-814,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/02 19:35:11,calibration,failed,not_due,37,Calibration variance noted,medium,tech_01,sensor_calibrated,5
+MLX-815,MaintaLogix,PLANT_01,MCH-004,B,2026/03/08 01:25:35,calibration,pass,due_soon,32,Calibration cycle completed,high,tech_01,,5
+MLX-816,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/02 21:42:26,calibration,failed,due_soon,53,Sensor baseline reset,high,operator_b,sensor_calibrated,15
+MLX-817,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/10 14:38:36,calibration,pass,due_soon,58,Calibration variance noted,high,operator_a,sensor_calibrated,30
+MLX-818,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/06 05:53:13,calibration,pass,overdue,89,Sensor baseline reset,medium,operator_b,calibration_failed,30
+MLX-819,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/01 14:26:27,calibration,pass,open,48,Calibration cycle completed,medium,operator_b,,15
+MLX-820,MaintaLogix,PLANT_01,MCH-008,B,2026/03/01 19:26:45,calibration,recalibrated,closed,34,Calibration cycle completed,high,operator_b,calibration_failed,30
+MLX-821,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/05 12:37:34,calibration,pass,not_due,19,Calibration variance noted,high,tech_01,sensor_calibrated,30
+MLX-822,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/07 15:05:33,calibration,pass,not_due,6,Sensor baseline reset,low,tech_01,threshold_verified,5
+MLX-823,MaintaLogix,PLANT_01,MCH-006,C,2026/03/01 23:22:39,calibration,recalibrated,closed,17,Calibration variance noted,high,operator_b,sensor_calibrated,30
+MLX-824,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/02 04:03:23,calibration,pass,closed,18,Calibration variance noted,medium,shift_lead,,0
+MLX-825,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/09 07:53:28,calibration,recalibrated,closed,17,Calibration variance noted,low,tech_01,threshold_verified,15
+MLX-826,MaintaLogix,PLANT_01,MCH-001,A,2026/03/10 10:17:36,calibration,failed,not_due,0,Calibration cycle completed,medium,operator_a,,0
+MLX-827,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/07 10:22:30,calibration,pass,overdue,88,Calibration variance noted,high,shift_lead,threshold_verified,5
+MLX-828,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/08 09:03:29,calibration,recalibrated,due_soon,34,Calibration variance noted,high,operator_a,calibration_failed,5
+MLX-829,MaintaLogix,PLANT_01,MCH-010,C,2026/03/02 21:36:22,calibration,pass,due_soon,32,Calibration variance noted,high,tech_02,calibration_failed,5
+MLX-830,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/01 10:44:50,calibration,recalibrated,closed,0,Calibration cycle completed,medium,operator_b,sensor_calibrated,5
+MLX-831,MaintaLogix,PLANT_01,,LINE-B,2026/03/09 18:39:50,calibration,recalibrated,closed,24,Calibration variance noted,high,operator_a,,0
+MLX-832,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/09 17:23:05,calibration,recalibrated,closed,55,Calibration variance noted,high,operator_a,calibration_failed,0
+MLX-833,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/01 09:31:32,calibration,pass,closed,0,Calibration cycle completed,high,operator_a,,15
+MLX-834,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/08 00:32:36,calibration,recalibrated,not_due,25,Sensor baseline reset,low,tech_01,threshold_verified,15
+MLX-835,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/01 15:29:58,calibration,recalibrated,closed,0,Calibration variance noted,high,shift_lead,sensor_calibrated,15
+MLX-836,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/02 21:18:04,calibration,pass,due_soon,51,Calibration cycle completed,high,tech_01,,5
+MLX-837,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/01 10:53:56,calibration,pass,due_soon,57,Sensor baseline reset,medium,tech_01,,5
+MLX-838,MaintaLogix,PLANT_01,MCH-004,B,2026/03/04 18:37:18,calibration,pass,not_due,45,Calibration variance noted,high,shift_lead,,0
+MLX-839,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/04 04:28:28,calibration,pass,not_due,5,Calibration cycle completed,high,operator_b,calibration_failed,5
+MLX-840,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/03 01:13:05,calibration,pass,not_due,68,Calibration cycle completed,medium,operator_b,,30
+MLX-841,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/10 13:04:27,calibration,recalibrated,due_soon,25,Calibration variance noted,high,operator_a,,30
+MLX-842,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/09 15:07:18,calibration,failed,not_due,87,Calibration cycle completed,medium,operator_b,calibration_failed,0
+MLX-843,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/01 00:53:44,calibration,pass,due_soon,49,Calibration cycle completed,high,tech_02,,30
+MLX-844,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/03 20:02:33,calibration,recalibrated,not_due,41,Sensor baseline reset,medium,tech_01,threshold_verified,15
+MLX-845,MaintaLogix,PLANT_01,MCH-011,LINE-D,2026/03/01 19:05:23,calibration,pass,closed,49,Calibration variance noted,medium,tech_01,threshold_verified,5
+MLX-846,MaintaLogix,PLANT_01,MCH-007,LINE-C,2026/03/04 19:33:39,calibration,pass,not_due,28,Calibration cycle completed,medium,tech_01,calibration_failed,0
+MLX-847,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/06 00:08:43,calibration,pass,due_soon,31,Calibration cycle completed,high,operator_b,,30
+MLX-848,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/01 17:06:51,calibration,recalibrated,not_due,0,Calibration cycle completed,medium,operator_b,sensor_calibrated,0
+MLX-849,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/08 22:18:56,calibration,pass,due_soon,26,Calibration variance noted,high,tech_01,calibration_failed,30
+MLX-850,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/01 07:50:10,calibration,recalibrated,due_soon,34,Sensor baseline reset,high,tech_01,threshold_verified,5
+MLX-851,MaintaLogix,PLANT_01,MCH-011,LINE-D,2026/03/04 14:18:53,calibration,failed,closed,77,Calibration variance noted,high,operator_a,,15
+MLX-852,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/01 09:49:21,calibration,pass,not_due,26,Calibration variance noted,low,tech_02,sensor_calibrated,5
+MLX-853,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/02 19:30:58,calibration,pass,closed,13,Calibration variance noted,medium,shift_lead,,30
+MLX-854,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/05 20:43:34,calibration,recalibrated,closed,15,Sensor baseline reset,high,operator_b,threshold_verified,5
+MLX-855,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/03 13:50:53,calibration,pass,not_due,14,Sensor baseline reset,high,operator_a,sensor_calibrated,5
+MLX-856,MaintaLogix,PLANT_01,MCH-005,A,2026/03/04 21:25:57,calibration,pass,not_due,0,Sensor baseline reset,high,shift_lead,threshold_verified,30
+MLX-857,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/01 16:37:08,calibration,recalibrated,not_due,0,Calibration cycle completed,low,operator_a,threshold_verified,15
+MLX-858,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/09 23:21:16,calibration,pass,due_soon,0,Sensor baseline reset,high,operator_b,threshold_verified,15
+MLX-859,MaintaLogix,PLANT_01,MCH-011,LINE-D,2026/03/06 05:06:41,calibration,pass,not_due,109,Sensor baseline reset,high,shift_lead,sensor_calibrated,30
+MLX-860,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/09 22:10:55,operator_note,no_issue_reported,unknown,0,Short stoppage reported,medium,shift_lead,,0
+MLX-861,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/04 00:14:47,operator_note,requires_attention,open,56,Short stoppage reported,medium,operator_a,,0
+MLX-862,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/08 20:16:28,operator_note,operator_observed,not_due,25,Short stoppage reported,low,operator_b,,0
+MLX-863,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/06 13:18:26,operator_note,operator_observed,overdue,63,Operator observed temperature warning,low,tech_01,,0
+MLX-864,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/06 17:46:31,operator_note,operator_observed,unknown,36,Operator observed temperature warning,low,shift_lead,,0
+MLX-865,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/02 07:56:23,operator_note,operator_observed,due_soon,37,Short stoppage reported,medium,tech_02,,5
+MLX-866,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/06 05:49:04,operator_note,no_issue_reported,unknown,13,No abnormality visible,medium,operator_a,,20
+MLX-867,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/07 23:00:36,operator_note,no_issue_reported,overdue,7,Noise reported during startup,low,shift_lead,,5
+MLX-868,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/01 22:39:28,operator_note,operator_observed,overdue,80,,low,operator_a,,5
+MLX-869,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/01 16:50:29,operator_note,requires_attention,due_soon,0,Noise reported during startup,low,operator_a,,20
+MLX-870,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/05 06:11:31,operator_note,no_issue_reported,overdue,60,No abnormality visible,medium,operator_b,,0
+MLX-871,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/06 20:03:46,operator_note,requires_attention,open,68,No abnormality visible,low,operator_a,,0
+MLX-872,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/04 06:01:00,operator_note,requires_attention,due_soon,69,,medium,tech_01,,0
+MLX-873,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/09 03:39:05,operator_note,requires_attention,not_due,23,No abnormality visible,medium,operator_b,,0
+MLX-874,MaintaLogix,PLANT_01,MCH-007,LINE-C,2026/03/03 21:03:05,operator_note,operator_observed,due_soon,35,Operator observed temperature warning,low,operator_a,,5
+MLX-875,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/09 07:18:14,operator_note,no_issue_reported,open,94,Short stoppage reported,medium,shift_lead,,0
+MLX-876,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/03 02:41:31,operator_note,operator_observed,overdue,21,Operator observed temperature warning,low,tech_02,,0
+MLX-877,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/04 07:11:37,operator_note,no_issue_reported,not_due,12,Operator observed temperature warning,medium,operator_b,,0
+MLX-878,MaintaLogix,PLANT_01,MCH-004,B,2026/03/05 02:25:10,operator_note,operator_observed,not_due,29,,medium,operator_b,,0
+MLX-879,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/09 06:32:52,operator_note,requires_attention,due_soon,35,Noise reported during startup,medium,tech_01,,20
+MLX-880,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/09 02:17:56,operator_note,requires_attention,not_due,101,Short stoppage reported,medium,operator_a,,0
+MLX-881,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/10 06:02:55,operator_note,operator_observed,not_due,26,Operator observed temperature warning,medium,operator_a,,0
+MLX-882,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/05 21:22:01,operator_note,no_issue_reported,not_due,26,No abnormality visible,medium,operator_b,,20
+MLX-883,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/01 20:32:52,operator_note,no_issue_reported,overdue,87,Noise reported during startup,low,operator_a,,20
+MLX-884,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/08 20:25:48,operator_note,no_issue_reported,not_due,24,Operator observed temperature warning,medium,operator_b,,20
+MLX-885,MaintaLogix,PLANT_01,MCH-011,LINE-D,2026/03/10 19:33:53,operator_note,no_issue_reported,unknown,61,,medium,tech_01,,0
+MLX-886,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/02 05:31:47,operator_note,requires_attention,overdue,29,,medium,tech_02,,0
+MLX-887,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/03 11:02:19,operator_note,operator_observed,not_due,10,Short stoppage reported,low,shift_lead,,5
+MLX-888,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/02 22:43:15,operator_note,no_issue_reported,overdue,60,,low,operator_a,,0
+MLX-889,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/04 20:12:47,operator_note,no_issue_reported,overdue,4,No abnormality visible,low,tech_02,,0
+MLX-890,MaintaLogix,PLANT_01,MCH-011,LINE-D,2026/03/06 21:49:55,operator_note,operator_observed,due_soon,29,Short stoppage reported,low,tech_02,,20
+MLX-891,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/07 01:14:01,operator_note,operator_observed,overdue,60,Operator observed temperature warning,medium,shift_lead,,20
+MLX-892,MaintaLogix,PLANT_01,MCH-005,A,2026/03/06 10:57:45,operator_note,no_issue_reported,not_due,11,Short stoppage reported,low,shift_lead,,0
+MLX-893,MaintaLogix,PLANT_01,MCH-005,A,2026/03/05 13:07:02,operator_note,operator_observed,overdue,20,No abnormality visible,medium,tech_01,,5
+MLX-894,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/03 00:40:34,operator_note,operator_observed,overdue,54,Operator observed temperature warning,low,operator_b,,20
+MLX-895,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/06 21:00:38,operator_note,operator_observed,unknown,19,Noise reported during startup,medium,tech_02,,5
+MLX-896,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/06 16:44:15,operator_note,no_issue_reported,overdue,0,Operator observed temperature warning,medium,operator_a,,20
+MLX-897,MaintaLogix,PLANT_01,MCH-010,,2026/03/05 00:42:43,operator_note,no_issue_reported,unknown,65,Noise reported during startup,medium,tech_02,,0
+MLX-898,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/09 19:44:09,operator_note,operator_observed,unknown,49,,medium,shift_lead,,20
+MLX-899,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/05 04:23:42,operator_note,operator_observed,overdue,7,Short stoppage reported,low,operator_b,,0
+MLX-900,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/05 02:29:02,operator_note,requires_attention,overdue,60,Noise reported during startup,low,operator_b,,0
+MLX-901,MaintaLogix,PLANT_01,MCH-009,LINE-A,2026/03/01 09:15:00,operator_note,requires_attention,unknown,64,Operator observed temperature warning,low,operator_a,,20
+MLX-902,MaintaLogix,PLANT_01,MCH-009,LINE-A,2026/03/07 18:10:22,operator_note,no_issue_reported,overdue,31,,medium,operator_b,,20
+MLX-903,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/04 21:36:10,operator_note,requires_attention,not_due,31,Noise reported during startup,medium,tech_02,,0
+MLX-904,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/06 05:52:37,operator_note,requires_attention,overdue,38,No abnormality visible,medium,operator_a,,0
+MLX-905,MaintaLogix,PLANT_01,MCH-011,LINE-D,2026/03/06 20:27:38,operator_note,no_issue_reported,not_due,101,Noise reported during startup,low,shift_lead,,0
+MLX-906,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/08 11:09:21,operator_note,no_issue_reported,unknown,51,Noise reported during startup,medium,tech_01,,0
+MLX-907,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/10 16:58:18,operator_note,operator_observed,due_soon,20,No abnormality visible,low,operator_b,,5
+MLX-908,MaintaLogix,PLANT_01,MCH-002,A,2026/03/07 02:03:51,operator_note,no_issue_reported,overdue,1,Short stoppage reported,medium,operator_b,,20
+MLX-909,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/06 08:59:06,operator_note,operator_observed,overdue,60,,medium,tech_01,,0
+MLX-910,MaintaLogix,PLANT_01,MCH-008,B,2026/03/06 22:28:50,operator_note,requires_attention,due_soon,52,Noise reported during startup,low,tech_01,,0
+MLX-911,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/10 17:48:32,operator_note,operator_observed,not_due,74,,medium,tech_02,,20
+MLX-912,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/10 06:05:49,operator_note,requires_attention,overdue,40,Operator observed temperature warning,medium,tech_01,,0
+MLX-913,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/07 09:00:35,operator_note,operator_observed,due_soon,24,No abnormality visible,low,shift_lead,,0
+MLX-914,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/09 14:09:10,operator_note,no_issue_reported,unknown,49,,low,shift_lead,,0
+MLX-915,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/10 10:21:36,operator_note,requires_attention,overdue,52,Short stoppage reported,low,tech_01,,0
+MLX-916,MaintaLogix,PLANT_01,MCH-008,B,2026/03/01 00:19:53,operator_note,operator_observed,due_soon,32,Short stoppage reported,low,shift_lead,,0
+MLX-917,MaintaLogix,PLANT_01,MCH-007,LINE-C,2026/03/09 13:17:46,operator_note,no_issue_reported,unknown,7,,low,operator_a,,0
+MLX-918,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/07 18:09:09,operator_note,requires_attention,unknown,0,Short stoppage reported,medium,operator_a,,5
+MLX-919,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/04 01:27:51,operator_note,no_issue_reported,due_soon,70,No abnormality visible,low,shift_lead,,20
+MLX-920,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/07 16:00:17,operator_note,no_issue_reported,due_soon,66,,low,operator_b,,5
+MLX-921,MaintaLogix,PLANT_01,MCH-007,LINE-C,2026/03/03 13:38:03,operator_note,operator_observed,due_soon,36,Short stoppage reported,low,tech_02,,5
+MLX-922,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/09 03:26:48,operator_note,operator_observed,unknown,22,No abnormality visible,medium,operator_b,,0
+MLX-923,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/06 10:41:23,operator_note,operator_observed,due_soon,33,No abnormality visible,low,operator_a,,0
+MLX-924,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/03 09:19:25,operator_note,requires_attention,unknown,56,,medium,operator_b,,0
+MLX-925,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/09 18:28:33,operator_note,operator_observed,unknown,45,Operator observed temperature warning,low,tech_02,,0
+MLX-926,MaintaLogix,PLANT_01,MCH-009,LINE-A,2026/03/09 03:54:30,operator_note,requires_attention,not_due,56,Noise reported during startup,medium,tech_02,,5
+MLX-927,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/09 15:59:12,operator_note,requires_attention,not_due,34,,medium,operator_b,,0
+MLX-928,MaintaLogix,PLANT_01,MCH-011,LINE-D,2026/03/08 02:55:59,operator_note,operator_observed,overdue,47,Short stoppage reported,medium,operator_b,,0
+MLX-929,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/05 09:18:34,operator_note,operator_observed,unknown,33,No abnormality visible,low,operator_a,,5
+MLX-930,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/08 22:15:34,operator_note,operator_observed,unknown,15,,medium,shift_lead,,0
+MLX-931,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/08 00:24:13,operator_note,no_issue_reported,due_soon,25,,medium,shift_lead,,0
+MLX-932,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/08 17:03:13,operator_note,operator_observed,overdue,61,Noise reported during startup,medium,tech_01,,0
+MLX-933,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/09 06:39:01,operator_note,operator_observed,overdue,39,Noise reported during startup,medium,operator_b,,20
+MLX-934,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/04 09:16:31,operator_note,no_issue_reported,unknown,36,Noise reported during startup,low,tech_01,,5
+MLX-935,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/04 19:27:11,operator_note,no_issue_reported,overdue,65,Short stoppage reported,medium,tech_02,,20
+MLX-936,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/05 17:13:14,operator_note,requires_attention,overdue,38,,medium,operator_a,,5
+MLX-937,MaintaLogix,PLANT_01,MCH-005,A,2026/03/08 12:54:41,operator_note,no_issue_reported,due_soon,11,Noise reported during startup,low,tech_01,,20
+MLX-938,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/09 09:03:51,operator_note,no_issue_reported,open,69,Short stoppage reported,low,tech_02,,20
+MLX-939,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/06 17:53:28,operator_note,no_issue_reported,due_soon,68,,low,tech_01,,0
+MLX-940,MaintaLogix,PLANT_01,MCH-007,LINE-C,2026/03/04 10:33:35,operator_note,requires_attention,unknown,35,Short stoppage reported,low,operator_b,,0
+MLX-941,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/07 23:40:23,operator_note,requires_attention,overdue,10,Noise reported during startup,low,shift_lead,,20
+MLX-942,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/02 02:24:58,operator_note,no_issue_reported,overdue,42,No abnormality visible,medium,operator_a,,0
+MLX-943,MaintaLogix,PLANT_01,MCH-011,LINE-D,2026/03/10 00:28:13,operator_note,requires_attention,due_soon,73,,low,shift_lead,,20
+MLX-944,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/01 08:11:42,operator_note,no_issue_reported,unknown,79,Short stoppage reported,medium,tech_01,,5
+MLX-945,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/09 13:47:34,operator_note,requires_attention,due_soon,19,Short stoppage reported,medium,shift_lead,,5
+MLX-946,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/01 11:04:25,operator_note,operator_observed,overdue,25,Noise reported during startup,low,operator_a,,0
+MLX-947,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/04 09:25:49,operator_note,operator_observed,overdue,95,No abnormality visible,medium,operator_b,,20
+MLX-948,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/03 16:12:32,operator_note,no_issue_reported,not_due,34,Noise reported during startup,low,tech_02,,0
+MLX-949,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/03 22:52:28,operator_note,no_issue_reported,unknown,58,Short stoppage reported,low,tech_01,,0
+MLX-950,MaintaLogix,PLANT_01,MCH-009,LINE-A,2026/03/01 12:05:48,operator_note,operator_observed,unknown,28,No abnormality visible,low,tech_01,,5
+MLX-951,MaintaLogix,PLANT_01,MCH-009,LINE-A,2026/03/04 10:39:07,operator_note,no_issue_reported,due_soon,41,Operator observed temperature warning,low,tech_01,,0
+MLX-952,MaintaLogix,PLANT_01,MCH-009,LINE-A,2026/03/06 20:47:20,operator_note,no_issue_reported,not_due,17,Noise reported during startup,low,tech_02,,0
+MLX-953,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/10 05:21:22,operator_note,no_issue_reported,not_due,29,,medium,shift_lead,,0
+MLX-954,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/07 13:56:07,operator_note,operator_observed,unknown,36,No abnormality visible,low,shift_lead,,0
+MLX-955,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/05 23:36:05,operator_note,requires_attention,unknown,7,Short stoppage reported,low,shift_lead,,0
+MLX-956,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/09 01:05:10,operator_note,requires_attention,overdue,75,Noise reported during startup,low,tech_02,,20
+MLX-957,MaintaLogix,PLANT_01,MCH-001,A,2026/03/03 05:10:17,operator_note,requires_attention,overdue,8,Operator observed temperature warning,low,tech_01,,0
+MLX-958,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/10 09:47:13,operator_note,no_issue_reported,not_due,55,Short stoppage reported,medium,operator_b,,20
+MLX-959,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/08 20:33:58,operator_note,operator_observed,unknown,43,Operator observed temperature warning,low,operator_b,,0
+MLX-960,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/08 15:59:05,operator_note,operator_observed,not_due,75,Noise reported during startup,low,shift_lead,,20
+MLX-961,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/03 12:31:12,operator_note,operator_observed,due_soon,56,No abnormality visible,low,tech_01,,5
+MLX-962,MaintaLogix,PLANT_01,MCH-005,LINE-A,2026/03/02 17:08:14,operator_note,operator_observed,overdue,0,No abnormality visible,medium,tech_01,,20
+MLX-963,MaintaLogix,PLANT_01,MCH-006,C,2026/03/05 14:28:55,operator_note,requires_attention,not_due,13,No abnormality visible,low,operator_b,,5
+MLX-964,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/02 09:26:25,operator_note,no_issue_reported,not_due,23,,medium,tech_01,,0
+MLX-965,MaintaLogix,PLANT_01,MCH-003,LINE-B,2026/03/10 03:39:49,operator_note,requires_attention,due_soon,69,No abnormality visible,low,operator_b,,20
+MLX-966,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/08 17:42:51,operator_note,requires_attention,overdue,14,,low,shift_lead,,0
+MLX-967,MaintaLogix,PLANT_01,MCH-007,LINE-C,2026/03/10 11:29:22,operator_note,requires_attention,not_due,41,Short stoppage reported,low,operator_a,,5
+MLX-968,MaintaLogix,PLANT_01,MCH-007,LINE-C,2026/03/06 04:03:59,operator_note,requires_attention,unknown,30,Short stoppage reported,low,shift_lead,,0
+MLX-969,MaintaLogix,PLANT_01,MCH-009,LINE-A,2026/03/03 05:18:02,operator_note,operator_observed,unknown,59,No abnormality visible,medium,operator_b,,20
+MLX-970,MaintaLogix,PLANT_01,MCH-011,LINE-D,2026/03/04 15:25:37,operator_note,operator_observed,due_soon,55,Short stoppage reported,medium,operator_b,,0
+MLX-971,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/03 03:47:19,operator_note,requires_attention,due_soon,10,No abnormality visible,medium,tech_01,,20
+MLX-972,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/05 04:55:24,operator_note,operator_observed,unknown,30,Short stoppage reported,medium,tech_02,,5
+MLX-973,MaintaLogix,PLANT_01,MCH-003,B,2026/03/03 07:27:21,operator_note,operator_observed,overdue,38,Short stoppage reported,medium,shift_lead,,0
+MLX-974,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/01 17:04:28,operator_note,operator_observed,not_due,41,No abnormality visible,low,tech_01,,0
+MLX-975,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/02 08:30:32,operator_note,no_issue_reported,open,59,Short stoppage reported,low,shift_lead,,0
+MLX-976,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/02 16:06:58,operator_note,requires_attention,overdue,18,No abnormality visible,low,shift_lead,,0
+MLX-977,MaintaLogix,PLANT_01,MCH-011,LINE-D,2026/03/06 12:34:32,operator_note,operator_observed,overdue,36,Operator observed temperature warning,medium,tech_01,,20
+MLX-978,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/02 02:23:59,operator_note,operator_observed,unknown,17,,low,tech_01,,0
+MLX-979,MaintaLogix,PLANT_01,MCH-012,LINE-B,2026/03/10 03:33:43,operator_note,requires_attention,unknown,85,Operator observed temperature warning,medium,tech_02,,5
+MLX-847,MaintaLogix,PLANT_01,MCH-002,LINE-A,2026/03/06 00:08:43,calibration,pass,due_soon,31,Calibration cycle completed,high,operator_b,,30
+MLX-670,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/07 01:11:30,maintenance,requires_attention,open,57,Work order updated,high,tech_02,belt_adjustment,20
+MLX-685,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/10 14:00:13,maintenance,pass,closed,14,Issue observed by shift technician,high,operator_b,belt_adjustment,90
+MLX-758,MaintaLogix,PLANT_01,MCH-010,LINE-C,2026/03/06 10:32:08,calibration,pass,not_due,35,Calibration cycle completed,medium,operator_b,sensor_calibrated,15
+MLX-742,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/06 00:22:18,calibration,failed,closed,37,Calibration variance noted,high,shift_lead,,15
+MLX-731,MaintaLogix,PLANT_01,MCH-001,LINE-A,2026/03/05 04:12:02,maintenance,not_inspected,overdue,15,Work order updated,low,operator_a,belt_adjustment,120
+MLX-644,MaintaLogix,PLANT_01,MCH-008,B,2026/03/01 02:53:26,maintenance,pass,open,68,Work order updated,low,operator_b,sensor_replaced,90
+MLX-897,MaintaLogix,PLANT_01,MCH-010,,2026/03/05 00:42:43,operator_note,no_issue_reported,unknown,65,Noise reported during startup,medium,tech_02,,0
+MLX-945,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/09 13:47:34,operator_note,requires_attention,due_soon,19,Short stoppage reported,medium,shift_lead,,5
+MLX-677,MaintaLogix,PLANT_01,MCH-008,LINE-B,2026/03/06 13:33:23,maintenance,requires_attention,due_soon,84,Work order updated,high,operator_b,bearing_lubricated,45
+MLX-943,MaintaLogix,PLANT_01,MCH-011,LINE-D,2026/03/10 00:28:13,operator_note,requires_attention,due_soon,73,,low,shift_lead,,20
+MLX-565,MaintaLogix,PLANT_01,MCH-006,LINE-C,2026/03/04 06:02:54,inspection,pass,due_soon,35,Routine inspection completed,medium,tech_01,,30
+MLX-CONFLICT-1,MaintaLogix,PLANT_01,MCH-004,LINE-B,2026/03/05 10:45:00,inspection,pass,not_due,12,Manual inspection pass despite high power alerts,high,tech_02,,0

@@ -1,0 +1,13 @@
+machine_id,plant_id,line_id,machine_type,criticality,health_score,confidence_score,readiness_score,status
+MCH-001,PLANT_01,LINE-A,Conveyor Motor,High,62,71.75,95,Monitor
+MCH-002,PLANT_01,LINE-A,Heat Press,Critical,60,69.25,95,Monitor
+MCH-003,PLANT_01,LINE-B,Packaging Arm,Medium,82,61.59,95,Healthy
+MCH-004,PLANT_01,LINE-B,Compressor Unit,High,63,72.25,95,Monitor
+MCH-005,PLANT_01,LINE-A,CNC Spindle,Critical,30,73.61,95,Critical
+MCH-006,PLANT_01,LINE-C,Cooling Pump,High,39,72.66,95,Critical
+MCH-007,PLANT_01,LINE-C,Robotic Arm,Medium,92,59.37,90,Healthy
+MCH-008,PLANT_01,LINE-B,Extruder,Critical,74,71.53,95,Monitor
+MCH-009,PLANT_01,LINE-A,Conveyor Belt,Low,66,74.0,95,Monitor
+MCH-010,PLANT_01,LINE-C,Air Handling Unit,Medium,49,72.47,95,Attention Required
+MCH-011,PLANT_01,LINE-D,Vision Inspection Station,High,59,51.07,90,Attention Required
+MCH-012,PLANT_01,LINE-B,Backup Compressor,Low,71,67.51,95,Monitor

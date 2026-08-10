@@ -1,0 +1,13 @@
+machine_id,plant_id,line_id,machine_type,criticality,installed_date,oem,asset_status,service_interval_days,rated_max_temp_c,rated_max_vibration_mm_s,baseline_power_kw
+MCH-001,PLANT_01,LINE-A,Conveyor Motor,High,2025-01-12,OEM-Vector,ACTIVE,30,85,10.0,35.0
+MCH-002,PLANT_01,LINE-A,Heat Press,Critical,2024-08-20,OEM-Thermax,ACTIVE,30,95,8.0,45.0
+MCH-003,PLANT_01,LINE-B,Packaging Arm,Medium,2025-11-05,OEM-RoboPak,ACTIVE,45,75,7.5,18.0
+MCH-004,PLANT_01,LINE-B,Compressor Unit,High,2023-06-18,OEM-AirCore,ACTIVE,60,90,9.0,55.0
+MCH-005,PLANT_01,LINE-A,CNC Spindle,Critical,2022-04-03,OEM-MillTek,ACTIVE,25,80,6.5,30.0
+MCH-006,PLANT_01,LINE-C,Cooling Pump,High,2024-02-14,OEM-FlowMax,ACTIVE,30,78,8.0,22.0
+MCH-007,PLANT_01,LINE-C,Robotic Arm,Medium,2025-06-22,OEM-RoboPak,ACTIVE,45,75,7.0,15.0
+MCH-008,PLANT_01,LINE-B,Extruder,Critical,2021-10-09,OEM-PolyForm,ACTIVE,20,110,11.0,65.0
+MCH-009,PLANT_01,LINE-A,Conveyor Belt,Low,2023-12-01,OEM-Vector,ACTIVE,60,70,7.0,12.0
+MCH-010,PLANT_01,LINE-C,Air Handling Unit,Medium,2024-07-15,OEM-AirCore,ACTIVE,60,72,6.5,20.0
+MCH-011,PLANT_01,LINE-D,Vision Inspection Station,High,2026-02-15,OEM-OptiScan,ACTIVE,90,65,5.0,8.0
+MCH-012,PLANT_01,LINE-B,Backup Compressor,Low,2020-05-28,OEM-AirCore,STANDBY,90,88,9.0,50.0

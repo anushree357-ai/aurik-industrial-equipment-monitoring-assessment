@@ -1,0 +1,17 @@
+vendor,source_field,raw_type,source_severity_format,description,unit_or_format_notes
+MechaPulse,event_type,NORMAL_READING,low/medium/high/critical,Routine sensor reading,temperature_c in Celsius; vibration_mm_s in mm/s
+MechaPulse,event_type,HIGH_VIBRATION,low/medium/high/critical,Automated vibration threshold alert,temperature_c in Celsius; vibration_mm_s in mm/s
+MechaPulse,event_type,TEMP_SPIKE,low/medium/high/critical,Automated thermal threshold alert,temperature_c in Celsius; vibration_mm_s in mm/s
+MechaPulse,event_type,POWER_DRAW_ANOMALY,low/medium/high/critical,Automated abnormal load proxy alert,No power_kw field supplied by this vendor
+MechaPulse,event_type,SENSOR_DROPOUT,low/medium/high/critical,Sensor reporting interruption,Some sensor values may be blank
+MechaPulse,event_type,COOLING_IRREGULARITY,low/medium/high/critical,Cooling-related automated alert,temperature_c in Celsius
+ThermoTrack,alertCode,OK,1-5 numeric level,Routine reading or non-alert status,temperature_f in Fahrenheit; vibration_g in g-force
+ThermoTrack,alertCode,VIBRATION_WARN,1-5 numeric level,Automated vibration warning,temperature_f in Fahrenheit; vibration_g in g-force
+ThermoTrack,alertCode,HEAT_CRITICAL,1-5 numeric level,High temperature alert,temperature_f in Fahrenheit
+ThermoTrack,alertCode,POWER_FLUCTUATION,1-5 numeric level,Power draw fluctuation alert,power_kw supplied
+ThermoTrack,alertCode,SENSOR_OFFLINE,1-5 numeric level,Sensor connectivity alert,Some readings may be blank
+ThermoTrack,alertCode,COOLING_FAULT,1-5 numeric level,Cooling unit fault alert,temperature_f in Fahrenheit
+MaintaLogix,record_type,inspection,pass/minor_defect_found/requires_attention/fail,Manual inspection record,Manual confidence scale: low/medium/high
+MaintaLogix,record_type,maintenance,open/in_progress/closed,Maintenance activity record,Human-generated record
+MaintaLogix,record_type,calibration,pass/recalibrated/failed,Calibration activity record,Human-generated record
+MaintaLogix,record_type,operator_note,free-text observation,Operator note or shift comment,Human-generated record

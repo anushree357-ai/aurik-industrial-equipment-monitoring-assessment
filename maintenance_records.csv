@@ -1,0 +1,161 @@
+work_order_id,plant_id,machine_id,line_id,opened_at,closed_at,maintenance_type,trigger_source,status,downtime_minutes,parts_replaced,technician_confidence,post_maintenance_check,notes
+WO-7000,PLANT_01,MCH-005,LINE-A,2026-03-09T17:30:44Z,2026-03-09T23:30:44Z,corrective,operator_report,closed,240,power_relay,medium,monitor,Potential false positive observed
+WO-7001,PLANT_01,MCH-004,LINE-B,2026-03-09T12:12:11Z,,emergency,operator_report,open,30,none,low,pending,Follow-up required
+WO-7002,PLANT_01,MCH-012,LINE-B,2026-03-08T17:33:35Z,2026-03-08T23:33:35Z,preventive,sensor_alert,closed,0,bearing,medium,not_done,Potential false positive observed
+WO-7003,PLANT_01,MCH-002,LINE-A,2026-03-06T08:27:00Z,,corrective,sensor_alert,in_progress,0,temperature_sensor,medium,pending,Temperature spike investigation
+WO-7004,PLANT_01,MCH-011,LINE-D,2026-03-09T01:29:02Z,2026-03-09T07:29:02Z,calibration,sensor_alert,closed,30,vibration_sensor,high,fail,Routine work order
+WO-7005,PLANT_01,MCH-008,LINE-B,2026-03-02T11:19:03Z,2026-03-02T12:49:03Z,corrective,scheduled,closed,240,power_relay,low,fail,
+WO-7006,PLANT_01,MCH-004,LINE-B,2026-03-03T03:46:06Z,2026-03-03T04:31:06Z,calibration,operator_report,closed,0,vibration_sensor,high,pass,Follow-up required
+WO-7007,PLANT_01,MCH-010,LINE-C,2026-03-09T02:23:57Z,2026-03-09T03:53:57Z,emergency,operator_report,cancelled,0,none,high,pending,Routine work order
+WO-7008,PLANT_01,MCH-001,LINE-A,2026-03-05T09:51:05Z,,emergency,sensor_alert,in_progress,10,temperature_sensor,high,pending,Follow-up required
+WO-7009,PLANT_01,MCH-012,LINE-B,2026-03-05T00:15:45Z,2026-03-05T01:45:45Z,corrective,operator_report,closed,0,temperature_sensor,high,fail,Routine work order
+WO-7010,PLANT_01,MCH-009,LINE-A,2026-03-08T18:38:54Z,2026-03-08T19:23:54Z,corrective,sensor_alert,closed,120,cooling_fan,low,fail,
+WO-7011,PLANT_01,MCH-005,LINE-A,2026-03-02T01:11:01Z,2026-03-02T01:56:01Z,emergency,operator_report,closed,30,belt,high,fail,Potential false positive observed
+WO-7012,PLANT_01,MCH-008,LINE-B,2026-03-07T04:12:44Z,2026-03-07T10:12:44Z,calibration,scheduled,closed,240,temperature_sensor,high,pass,Follow-up required
+WO-7013,PLANT_01,MCH-006,LINE-C,2026-03-01T14:39:45Z,2026-03-01T15:24:45Z,preventive,sensor_alert,cancelled,0,temperature_sensor,high,pending,Post maintenance reading requested
+WO-7014,PLANT_01,MCH-006,LINE-C,2026-03-03T21:40:13Z,2026-03-03T22:25:13Z,corrective,inspection,closed,30,temperature_sensor,low,monitor,Post maintenance reading requested
+WO-7015,PLANT_01,MCH-002,LINE-A,2026-03-02T21:42:11Z,,emergency,sensor_alert,in_progress,120,none,medium,pending,Routine work order
+WO-7016,PLANT_01,MCH-003,LINE-B,2026-03-03T08:27:43Z,,emergency,unknown,open,10,power_relay,medium,pending,
+WO-7017,PLANT_01,MCH-005,LINE-A,2026-03-06T05:33:30Z,2026-03-06T08:33:30Z,emergency,scheduled,closed,60,none,low,fail,Follow-up required
+WO-7018,PLANT_01,MCH-005,LINE-A,2026-03-09T16:09:22Z,2026-03-09T16:29:22Z,calibration,inspection,closed,240,bearing,low,monitor,Routine work order
+WO-7019,PLANT_01,MCH-010,LINE-C,2026-03-03T01:25:50Z,2026-03-03T07:25:50Z,corrective,scheduled,closed,120,power_relay,low,fail,
+WO-7020,PLANT_01,MCH-002,LINE-A,2026-03-07T07:42:50Z,,calibration,operator_report,in_progress,60,belt,high,pending,Post maintenance reading requested
+WO-7021,PLANT_01,MCH-006,LINE-C,2026-03-03T05:56:54Z,,emergency,sensor_alert,open,240,temperature_sensor,medium,pending,
+WO-7022,PLANT_01,MCH-002,LINE-A,2026-03-09T15:39:02Z,2026-03-09T18:39:02Z,calibration,scheduled,closed,30,temperature_sensor,medium,monitor,Routine work order
+WO-7023,PLANT_01,MCH-002,LINE-A,2026-03-03T20:54:41Z,2026-03-03T21:39:41Z,emergency,unknown,closed,240,belt,high,pass,Routine work order
+WO-7024,PLANT_01,MCH-012,LINE-B,2026-03-08T11:37:19Z,2026-03-08T14:37:19Z,emergency,scheduled,cancelled,0,bearing,medium,pending,Post maintenance reading requested
+WO-7025,PLANT_01,MCH-002,LINE-A,2026-03-10T22:21:24Z,2026-03-11T01:21:24Z,preventive,inspection,closed,240,none,medium,monitor,Follow-up required
+WO-7026,PLANT_01,MCH-003,LINE-B,2026-03-07T00:27:06Z,,calibration,sensor_alert,open,120,belt,medium,pending,
+WO-7027,PLANT_01,MCH-009,LINE-A,2026-03-09T01:48:23Z,2026-03-09T03:18:23Z,corrective,scheduled,closed,120,bearing,medium,monitor,Routine work order
+WO-7028,PLANT_01,MCH-002,LINE-A,2026-03-10T16:58:26Z,,calibration,sensor_alert,in_progress,120,cooling_fan,low,pending,Follow-up required
+WO-7029,PLANT_01,MCH-005,LINE-A,2026-03-05T20:46:33Z,2026-03-05T23:46:33Z,emergency,unknown,closed,10,belt,high,fail,Routine work order
+WO-7030,PLANT_01,MCH-002,LINE-A,2026-03-09T19:46:19Z,,emergency,unknown,open,0,temperature_sensor,medium,pending,Post maintenance reading requested
+WO-7031,PLANT_01,MCH-008,LINE-B,2026-03-07T07:39:01Z,2026-03-07T13:39:01Z,emergency,operator_report,cancelled,0,cooling_fan,medium,pending,Post maintenance reading requested
+WO-7032,PLANT_01,MCH-002,LINE-A,2026-03-07T21:58:38Z,,calibration,inspection,open,0,belt,low,pending,Routine work order
+WO-7033,PLANT_01,MCH-002,LINE-A,2026-03-01T22:23:14Z,2026-03-01T23:53:14Z,emergency,unknown,closed,0,belt,medium,monitor,Post maintenance reading requested
+WO-7034,PLANT_01,MCH-005,LINE-A,2026-03-03T20:34:31Z,2026-03-03T20:54:31Z,emergency,unknown,closed,120,none,low,pass,
+WO-7035,PLANT_01,MCH-012,LINE-B,2026-03-02T02:33:51Z,2026-03-02T04:03:51Z,calibration,unknown,closed,0,belt,high,pass,Potential false positive observed
+WO-7036,PLANT_01,MCH-012,LINE-B,2026-03-06T11:24:14Z,2026-03-06T11:44:14Z,calibration,inspection,closed,120,temperature_sensor,medium,fail,Post maintenance reading requested
+WO-7037,PLANT_01,MCH-004,LINE-B,2026-03-03T01:33:02Z,2026-03-03T04:33:02Z,preventive,scheduled,closed,10,power_relay,low,fail,Post maintenance reading requested
+WO-7038,PLANT_01,MCH-005,LINE-A,2026-03-03T13:05:43Z,,emergency,unknown,in_progress,60,temperature_sensor,high,pending,Follow-up required
+WO-7039,PLANT_01,MCH-012,LINE-B,2026-03-04T00:53:58Z,2026-03-04T03:53:58Z,preventive,sensor_alert,closed,30,vibration_sensor,medium,monitor,Post maintenance reading requested
+WO-7040,PLANT_01,MCH-008,LINE-B,2026-03-06T13:30:29Z,,preventive,sensor_alert,open,30,vibration_sensor,high,pending,Routine work order
+WO-7041,PLANT_01,MCH-010,LINE-C,2026-03-06T07:23:43Z,2026-03-06T08:08:43Z,calibration,scheduled,closed,120,cooling_fan,high,not_done,Follow-up required
+WO-7042,PLANT_01,MCH-006,LINE-C,2026-03-08T19:49:34Z,2026-03-09T01:49:34Z,calibration,scheduled,closed,0,power_relay,high,not_done,
+WO-7043,PLANT_01,MCH-006,LINE-C,2026-03-04T22:41:32Z,2026-03-05T01:41:32Z,emergency,operator_report,closed,240,bearing,medium,not_done,Potential false positive observed
+WO-7044,PLANT_01,MCH-011,LINE-D,2026-03-01T13:56:10Z,2026-03-01T14:41:10Z,calibration,inspection,closed,60,vibration_sensor,medium,not_done,
+WO-7045,PLANT_01,MCH-005,LINE-A,2026-03-10T22:04:51Z,,emergency,unknown,in_progress,60,vibration_sensor,high,pending,Follow-up required
+WO-7046,PLANT_01,MCH-004,LINE-B,2026-03-03T22:48:52Z,2026-03-04T00:18:52Z,calibration,scheduled,closed,30,belt,high,monitor,Potential false positive observed
+WO-7047,PLANT_01,MCH-010,LINE-C,2026-03-03T21:00:55Z,2026-03-03T21:20:55Z,corrective,sensor_alert,closed,0,power_relay,medium,monitor,Follow-up required
+WO-7048,PLANT_01,MCH-006,LINE-C,2026-03-07T19:58:41Z,,emergency,unknown,open,120,cooling_fan,medium,pending,Post maintenance reading requested
+WO-7049,PLANT_01,MCH-007,LINE-C,2026-03-03T22:38:21Z,2026-03-03T23:23:21Z,calibration,sensor_alert,closed,30,temperature_sensor,low,fail,
+WO-7050,PLANT_01,MCH-001,LINE-A,2026-03-03T14:41:34Z,,emergency,inspection,in_progress,120,bearing,low,pending,
+WO-7051,PLANT_01,MCH-002,LINE-A,2026-03-05T15:09:38Z,2026-03-05T21:09:38Z,preventive,sensor_alert,closed,0,cooling_fan,low,fail,Post maintenance reading requested
+WO-7052,PLANT_01,MCH-001,LINE-A,2026-03-10T03:15:56Z,,emergency,scheduled,in_progress,240,cooling_fan,low,pending,Post maintenance reading requested
+WO-7053,PLANT_01,MCH-009,LINE-A,2026-03-09T00:55:16Z,2026-03-09T02:25:16Z,preventive,scheduled,closed,240,bearing,medium,not_done,
+WO-7054,PLANT_01,MCH-002,LINE-A,2026-03-07T01:32:28Z,2026-03-07T04:32:28Z,corrective,operator_report,closed,30,cooling_fan,medium,not_done,Follow-up required
+WO-7055,PLANT_01,MCH-003,LINE-B,2026-03-09T23:21:57Z,2026-03-10T02:21:57Z,preventive,operator_report,closed,10,power_relay,low,fail,Post maintenance reading requested
+WO-7056,PLANT_01,MCH-010,LINE-C,2026-03-07T11:45:39Z,2026-03-07T12:05:39Z,emergency,unknown,closed,10,power_relay,low,not_done,Routine work order
+WO-7057,PLANT_01,MCH-001,LINE-A,2026-03-02T00:14:01Z,,calibration,inspection,in_progress,0,cooling_fan,high,pending,Routine work order
+WO-7058,PLANT_01,MCH-008,LINE-B,2026-03-07T18:50:20Z,,emergency,unknown,open,30,temperature_sensor,medium,pending,Follow-up required
+WO-7059,PLANT_01,MCH-006,LINE-C,2026-03-06T08:09:12Z,2026-03-06T08:54:12Z,preventive,inspection,closed,0,belt,medium,monitor,Potential false positive observed
+WO-7060,PLANT_01,MCH-005,LINE-A,2026-03-08T10:56:23Z,,calibration,unknown,in_progress,120,bearing,medium,pending,Routine work order
+WO-7061,PLANT_01,MCH-012,LINE-B,2026-03-04T21:55:42Z,2026-03-04T22:40:42Z,calibration,scheduled,closed,10,power_relay,medium,pass,Follow-up required
+WO-7062,PLANT_01,MCH-010,LINE-C,2026-03-06T08:26:21Z,2026-03-06T11:26:21Z,preventive,inspection,closed,0,vibration_sensor,high,pass,Post maintenance reading requested
+WO-7063,PLANT_01,MCH-006,LINE-C,2026-03-03T17:18:56Z,2026-03-03T17:38:56Z,corrective,unknown,closed,0,bearing,low,fail,Follow-up required
+WO-7064,PLANT_01,MCH-003,LINE-B,2026-03-07T19:21:41Z,2026-03-07T20:51:41Z,preventive,operator_report,closed,10,cooling_fan,medium,fail,Routine work order
+WO-7065,PLANT_01,MCH-004,LINE-B,2026-03-08T21:21:32Z,2026-03-08T21:41:32Z,calibration,unknown,closed,0,power_relay,low,fail,Potential false positive observed
+WO-7066,PLANT_01,MCH-002,LINE-A,2026-03-01T08:10:52Z,2026-03-01T08:30:52Z,calibration,scheduled,closed,60,temperature_sensor,low,not_done,Follow-up required
+WO-7067,PLANT_01,MCH-006,LINE-C,2026-03-04T01:25:32Z,2026-03-04T01:45:32Z,corrective,sensor_alert,cancelled,0,temperature_sensor,medium,pending,Follow-up required
+WO-7068,PLANT_01,MCH-002,LINE-A,2026-03-10T20:29:21Z,2026-03-10T20:49:21Z,emergency,sensor_alert,closed,120,bearing,medium,monitor,
+WO-7069,PLANT_01,MCH-001,LINE-A,2026-03-01T02:42:12Z,,calibration,unknown,open,120,bearing,high,pending,Follow-up required
+WO-7070,PLANT_01,MCH-009,LINE-A,2026-03-03T21:59:15Z,2026-03-03T22:19:15Z,calibration,inspection,closed,240,temperature_sensor,medium,not_done,Potential false positive observed
+WO-7071,PLANT_01,MCH-012,LINE-B,2026-03-01T11:22:35Z,2026-03-01T17:22:35Z,emergency,unknown,closed,10,none,low,monitor,Routine work order
+WO-7072,PLANT_01,MCH-005,LINE-A,2026-03-05T05:30:27Z,,emergency,operator_report,open,60,temperature_sensor,high,pending,Routine work order
+WO-7073,PLANT_01,MCH-002,LINE-A,2026-03-05T02:44:10Z,,preventive,operator_report,in_progress,120,temperature_sensor,high,pending,
+WO-7074,PLANT_01,MCH-005,LINE-A,2026-03-03T05:28:14Z,,corrective,operator_report,open,30,power_relay,medium,pending,Potential false positive observed
+WO-7075,PLANT_01,MCH-003,LINE-B,2026-03-01T00:52:15Z,,preventive,sensor_alert,open,30,power_relay,low,pending,Post maintenance reading requested
+WO-7076,PLANT_01,MCH-008,LINE-B,2026-03-03T08:55:59Z,,preventive,operator_report,in_progress,240,temperature_sensor,medium,pending,Post maintenance reading requested
+WO-7077,PLANT_01,MCH-002,LINE-A,2026-03-04T17:07:00Z,,corrective,operator_report,open,0,vibration_sensor,high,pending,Post maintenance reading requested
+WO-7078,PLANT_01,MCH-008,LINE-B,2026-03-09T15:00:44Z,2026-03-09T21:00:44Z,corrective,scheduled,closed,30,temperature_sensor,low,pass,
+WO-7079,PLANT_01,MCH-002,LINE-A,2026-03-01T15:16:58Z,2026-03-01T16:46:58Z,emergency,inspection,cancelled,0,bearing,high,pending,Potential false positive observed
+WO-7080,PLANT_01,MCH-005,LINE-A,2026-03-10T09:09:31Z,2026-03-10T09:54:31Z,corrective,sensor_alert,closed,240,belt,high,not_done,Post maintenance reading requested
+WO-7081,PLANT_01,MCH-006,LINE-C,2026-03-02T04:39:23Z,2026-03-02T10:39:23Z,corrective,inspection,closed,10,power_relay,high,monitor,
+WO-7082,PLANT_01,MCH-010,LINE-C,2026-03-05T23:13:59Z,,corrective,unknown,in_progress,30,power_relay,low,pending,
+WO-7083,PLANT_01,MCH-004,LINE-B,2026-03-10T21:47:23Z,2026-03-11T00:47:23Z,calibration,unknown,closed,120,vibration_sensor,high,pass,Potential false positive observed
+WO-7084,PLANT_01,MCH-011,LINE-D,2026-03-07T17:35:02Z,,preventive,unknown,in_progress,60,vibration_sensor,high,pending,
+WO-7085,PLANT_01,MCH-004,LINE-B,2026-03-04T10:49:16Z,2026-03-04T13:49:16Z,calibration,scheduled,closed,240,power_relay,medium,pass,Potential false positive observed
+WO-7086,PLANT_01,MCH-006,LINE-C,2026-03-04T04:55:37Z,2026-03-04T06:25:37Z,preventive,unknown,closed,120,bearing,high,not_done,Potential false positive observed
+WO-7087,PLANT_01,MCH-005,LINE-A,2026-03-04T07:19:02Z,,emergency,scheduled,in_progress,60,power_relay,medium,pending,
+WO-7088,PLANT_01,MCH-012,LINE-B,2026-03-04T22:39:50Z,2026-03-04T23:24:50Z,emergency,sensor_alert,closed,120,temperature_sensor,low,pass,
+WO-7089,PLANT_01,MCH-008,LINE-B,2026-03-02T12:37:42Z,,calibration,sensor_alert,open,30,cooling_fan,medium,pending,Follow-up required
+WO-7090,PLANT_01,MCH-012,LINE-B,2026-03-04T02:08:23Z,2026-03-04T02:53:23Z,emergency,sensor_alert,closed,240,none,low,monitor,
+WO-7091,PLANT_01,MCH-005,LINE-A,2026-03-10T16:31:18Z,2026-03-10T17:16:18Z,calibration,unknown,closed,60,temperature_sensor,low,pass,Follow-up required
+WO-7092,PLANT_01,MCH-001,LINE-A,2026-03-04T05:49:55Z,2026-03-04T07:19:55Z,emergency,unknown,closed,30,temperature_sensor,high,fail,Follow-up required
+WO-7093,PLANT_01,MCH-011,LINE-D,2026-03-09T04:30:54Z,2026-03-09T07:30:54Z,calibration,operator_report,closed,10,vibration_sensor,high,not_done,Follow-up required
+WO-7094,PLANT_01,MCH-008,LINE-B,2026-03-06T13:24:07Z,,emergency,unknown,open,10,belt,low,pending,Post maintenance reading requested
+WO-7095,PLANT_01,MCH-008,LINE-B,2026-03-05T21:40:28Z,,preventive,inspection,in_progress,30,none,low,pending,Post maintenance reading requested
+WO-7096,PLANT_01,MCH-006,LINE-C,2026-03-08T17:33:30Z,2026-03-08T18:18:30Z,preventive,sensor_alert,closed,30,none,high,monitor,Potential false positive observed
+WO-7097,PLANT_01,MCH-002,LINE-A,2026-03-08T05:56:52Z,,emergency,sensor_alert,open,30,belt,high,pending,Post maintenance reading requested
+WO-7098,PLANT_01,MCH-009,LINE-A,2026-03-05T00:26:22Z,2026-03-05T01:56:22Z,emergency,inspection,closed,10,none,medium,monitor,Post maintenance reading requested
+WO-7099,PLANT_01,MCH-004,LINE-B,2026-03-08T11:41:30Z,2026-03-08T14:41:30Z,calibration,unknown,closed,0,temperature_sensor,high,not_done,Routine work order
+WO-7100,PLANT_01,MCH-004,LINE-B,2026-03-10T03:25:47Z,2026-03-10T03:45:47Z,calibration,scheduled,closed,30,bearing,low,fail,Routine work order
+WO-7101,PLANT_01,MCH-004,LINE-B,2026-03-04T18:00:43Z,2026-03-04T19:30:43Z,corrective,scheduled,closed,240,vibration_sensor,high,fail,
+WO-7102,PLANT_01,MCH-002,LINE-A,2026-03-05T10:45:35Z,2026-03-05T11:05:35Z,corrective,scheduled,closed,240,vibration_sensor,medium,pass,
+WO-7103,PLANT_01,MCH-006,LINE-C,2026-03-06T21:21:32Z,2026-03-06T21:41:32Z,preventive,scheduled,closed,30,belt,high,monitor,
+WO-7104,PLANT_01,MCH-001,LINE-A,2026-03-02T05:29:23Z,2026-03-02T06:14:23Z,preventive,operator_report,closed,60,belt,low,pass,
+WO-7105,PLANT_01,MCH-008,LINE-B,2026-03-08T19:18:43Z,2026-03-08T20:03:43Z,calibration,operator_report,closed,60,temperature_sensor,low,monitor,Routine work order
+WO-7106,PLANT_01,MCH-008,LINE-B,2026-03-03T16:29:34Z,2026-03-03T19:29:34Z,corrective,scheduled,closed,120,temperature_sensor,high,monitor,
+WO-7107,PLANT_01,MCH-004,LINE-B,2026-03-06T02:49:33Z,,calibration,inspection,open,60,cooling_fan,low,pending,Potential false positive observed
+WO-7108,PLANT_01,MCH-011,LINE-D,2026-03-10T03:39:08Z,2026-03-10T09:39:08Z,corrective,sensor_alert,closed,120,vibration_sensor,low,monitor,Potential false positive observed
+WO-7109,PLANT_01,MCH-002,LINE-A,2026-03-09T17:08:25Z,2026-03-09T20:08:25Z,emergency,operator_report,closed,240,power_relay,medium,not_done,Potential false positive observed
+WO-7110,PLANT_01,MCH-010,LINE-C,2026-03-03T22:21:29Z,2026-03-03T23:06:29Z,corrective,inspection,closed,120,power_relay,medium,fail,Post maintenance reading requested
+WO-7111,PLANT_01,MCH-005,LINE-A,2026-03-09T22:19:41Z,2026-03-09T22:39:41Z,calibration,inspection,closed,30,belt,high,monitor,Potential false positive observed
+WO-7112,PLANT_01,MCH-004,LINE-B,2026-03-06T01:45:42Z,,emergency,inspection,open,120,bearing,high,pending,
+WO-7113,PLANT_01,MCH-008,LINE-B,2026-03-03T20:04:05Z,2026-03-03T21:34:05Z,calibration,inspection,closed,30,vibration_sensor,low,monitor,
+WO-7114,PLANT_01,MCH-003,LINE-B,2026-03-02T17:40:40Z,2026-03-02T23:40:40Z,preventive,unknown,closed,120,power_relay,medium,not_done,
+WO-7115,PLANT_01,MCH-004,LINE-B,2026-03-05T18:13:42Z,2026-03-06T00:13:42Z,preventive,scheduled,cancelled,0,vibration_sensor,high,pending,Post maintenance reading requested
+WO-7116,PLANT_01,MCH-010,LINE-C,2026-03-07T13:26:50Z,2026-03-07T14:11:50Z,corrective,sensor_alert,closed,60,temperature_sensor,medium,monitor,Post maintenance reading requested
+WO-7117,PLANT_01,MCH-011,LINE-D,2026-03-03T13:51:29Z,,calibration,unknown,in_progress,30,none,medium,pending,Routine work order
+WO-7118,PLANT_01,MCH-002,LINE-A,2026-03-05T16:57:31Z,2026-03-05T22:57:31Z,emergency,inspection,closed,120,bearing,low,not_done,Potential false positive observed
+WO-7119,PLANT_01,MCH-004,LINE-B,2026-03-05T09:08:43Z,2026-03-05T10:38:43Z,calibration,inspection,closed,240,power_relay,high,not_done,Follow-up required
+WO-7120,PLANT_01,MCH-006,LINE-C,2026-03-07T09:21:43Z,,emergency,sensor_alert,open,0,power_relay,high,pending,Post maintenance reading requested
+WO-7121,PLANT_01,MCH-011,LINE-D,2026-03-08T05:59:47Z,2026-03-08T08:59:47Z,emergency,sensor_alert,closed,120,belt,low,fail,Post maintenance reading requested
+WO-7122,PLANT_01,MCH-002,LINE-A,2026-03-01T09:56:23Z,2026-03-01T11:26:23Z,calibration,sensor_alert,closed,10,belt,medium,monitor,Routine work order
+WO-7123,PLANT_01,MCH-001,LINE-A,2026-03-02T17:12:05Z,2026-03-02T23:12:05Z,calibration,inspection,cancelled,0,belt,medium,pending,Routine work order
+WO-7124,PLANT_01,MCH-010,LINE-C,2026-03-02T13:29:03Z,,preventive,unknown,in_progress,0,temperature_sensor,high,pending,Potential false positive observed
+WO-7125,PLANT_01,MCH-008,LINE-B,2026-03-08T11:30:01Z,2026-03-08T14:30:01Z,emergency,scheduled,closed,10,bearing,medium,not_done,Routine work order
+WO-7126,PLANT_01,MCH-006,LINE-C,2026-03-08T02:54:16Z,2026-03-08T03:39:16Z,corrective,unknown,cancelled,0,temperature_sensor,medium,pending,Follow-up required
+WO-7127,PLANT_01,MCH-005,LINE-A,2026-03-03T07:55:11Z,2026-03-03T13:55:11Z,preventive,sensor_alert,closed,10,bearing,low,pass,Routine work order
+WO-7128,PLANT_01,MCH-005,LINE-A,2026-03-09T11:09:51Z,2026-03-09T11:29:51Z,calibration,scheduled,closed,0,belt,low,monitor,
+WO-7129,PLANT_01,MCH-002,LINE-A,2026-03-04T00:58:22Z,2026-03-04T02:28:22Z,calibration,sensor_alert,closed,120,temperature_sensor,low,not_done,Post maintenance reading requested
+WO-7130,PLANT_01,MCH-006,LINE-C,2026-03-09T00:02:11Z,2026-03-09T06:02:11Z,calibration,scheduled,closed,0,power_relay,medium,monitor,Potential false positive observed
+WO-7131,PLANT_01,MCH-011,LINE-D,2026-03-06T17:34:52Z,,emergency,scheduled,in_progress,240,cooling_fan,medium,pending,Potential false positive observed
+WO-7132,PLANT_01,MCH-002,LINE-A,2026-03-01T10:57:27Z,,corrective,operator_report,open,0,cooling_fan,high,pending,
+WO-7133,PLANT_01,MCH-005,LINE-A,2026-03-04T20:36:51Z,2026-03-04T23:36:51Z,preventive,sensor_alert,closed,60,bearing,low,pass,Potential false positive observed
+WO-7134,PLANT_01,MCH-003,LINE-B,2026-03-07T22:27:08Z,2026-03-07T23:12:08Z,preventive,operator_report,closed,60,cooling_fan,medium,not_done,Follow-up required
+WO-7135,PLANT_01,MCH-010,LINE-C,2026-03-02T23:55:14Z,,preventive,inspection,in_progress,30,belt,high,pending,Routine work order
+WO-7136,PLANT_01,MCH-005,LINE-A,2026-03-02T15:44:16Z,2026-03-02T17:14:16Z,emergency,operator_report,closed,60,cooling_fan,low,pass,Post maintenance reading requested
+WO-7137,PLANT_01,MCH-005,LINE-A,2026-03-06T09:10:47Z,,calibration,sensor_alert,open,0,none,low,pending,Potential false positive observed
+WO-7138,PLANT_01,MCH-011,LINE-D,2026-03-10T14:51:53Z,2026-03-10T17:51:53Z,calibration,scheduled,closed,60,temperature_sensor,low,not_done,Follow-up required
+WO-7139,PLANT_01,MCH-012,LINE-B,2026-03-09T18:58:04Z,2026-03-09T19:18:04Z,preventive,inspection,cancelled,0,cooling_fan,high,pending,
+WO-7140,PLANT_01,MCH-002,LINE-A,2026-03-03T01:12:15Z,2026-03-03T01:57:15Z,corrective,operator_report,closed,0,vibration_sensor,medium,not_done,
+WO-7141,PLANT_01,MCH-003,LINE-B,2026-03-07T15:07:44Z,2026-03-07T15:27:44Z,calibration,sensor_alert,closed,60,power_relay,low,fail,
+WO-7142,PLANT_01,MCH-004,LINE-B,2026-03-02T15:40:55Z,,corrective,scheduled,open,10,belt,low,pending,Follow-up required
+WO-7143,PLANT_01,MCH-008,LINE-B,2026-03-05T16:34:47Z,2026-03-05T18:04:47Z,emergency,scheduled,closed,120,none,low,pass,Potential false positive observed
+WO-7144,PLANT_01,MCH-001,LINE-A,2026-03-09T19:34:41Z,2026-03-09T21:04:41Z,emergency,unknown,closed,120,none,medium,pass,Routine work order
+WO-7145,PLANT_01,MCH-007,LINE-C,2026-03-03T03:58:18Z,2026-03-03T05:28:18Z,corrective,operator_report,closed,60,bearing,low,pass,Potential false positive observed
+WO-7146,PLANT_01,MCH-006,LINE-C,2026-03-09T18:52:23Z,2026-03-09T19:37:23Z,calibration,scheduled,closed,0,temperature_sensor,high,not_done,Routine work order
+WO-7147,PLANT_01,MCH-005,LINE-A,2026-03-03T23:57:14Z,2026-03-04T02:57:14Z,preventive,operator_report,closed,0,power_relay,medium,pass,Potential false positive observed
+WO-7148,PLANT_01,MCH-005,LINE-A,2026-03-02T06:23:52Z,,corrective,unknown,in_progress,240,power_relay,low,pending,Post maintenance reading requested
+WO-7149,PLANT_01,MCH-012,LINE-B,2026-03-08T03:22:52Z,2026-03-08T06:22:52Z,preventive,inspection,closed,240,power_relay,high,not_done,Follow-up required
+WO-7150,PLANT_01,MCH-006,LINE-C,2026-03-06T03:58:24Z,2026-03-06T05:28:24Z,preventive,sensor_alert,closed,120,none,medium,monitor,
+WO-7151,PLANT_01,MCH-002,LINE-A,2026-03-09T16:28:44Z,,preventive,sensor_alert,open,240,belt,high,pending,Routine work order
+WO-7152,PLANT_01,MCH-008,LINE-B,2026-03-07T21:38:49Z,2026-03-07T22:23:49Z,preventive,inspection,closed,120,bearing,medium,not_done,Follow-up required
+WO-7153,PLANT_01,MCH-001,LINE-A,2026-03-07T20:25:45Z,2026-03-07T21:55:45Z,preventive,inspection,closed,30,vibration_sensor,high,not_done,Potential false positive observed
+WO-7154,PLANT_01,MCH-010,LINE-C,2026-03-09T10:04:21Z,2026-03-09T11:34:21Z,calibration,scheduled,closed,240,cooling_fan,medium,not_done,Routine work order
+WO-7155,PLANT_01,MCH-006,LINE-C,2026-03-05T11:01:11Z,2026-03-05T14:01:11Z,emergency,inspection,closed,10,vibration_sensor,high,monitor,Follow-up required
+WO-7156,PLANT_01,MCH-002,LINE-A,2026-03-08T12:40:52Z,,preventive,operator_report,in_progress,240,vibration_sensor,medium,pending,Routine work order
+WO-7157,PLANT_01,MCH-002,LINE-A,2026-03-05T23:05:32Z,2026-03-05T23:25:32Z,preventive,scheduled,closed,120,power_relay,low,fail,Routine work order
+WO-7158,PLANT_01,MCH-006,LINE-C,2026-03-01T18:34:37Z,,preventive,unknown,in_progress,0,vibration_sensor,medium,pending,Routine work order
+WO-7159,PLANT_01,MCH-001,LINE-A,2026-03-03T05:36:08Z,2026-03-03T08:36:08Z,corrective,unknown,closed,0,belt,high,fail,Follow-up required
